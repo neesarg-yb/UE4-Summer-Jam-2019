@@ -1931,3 +1931,180 @@ Script Stack (0 frames):
 [2019.08.10-21.40.34:950][939]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenRopeWalkGameMode2FE27EC244AC91D1EEA8E8BAFA833419.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/BenRopeWalkGameMode.uasset'
 [2019.08.10-21.40.37:218][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
 [2019.08.10-21.40.37:376][ 71]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Neesarg_TestLevelA96B4A8A40A876F5370AF49E2EBE321B.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.10-21.45.27:535][433]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.10-21.45.27:571][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-21.45.27:572][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.10-21.45.27:572][433]PIE: New page: PIE session: Neesarg_TestLevel (Aug 10, 2019, 7:45:27 AM)
+[2019.08.10-21.45.27:572][433]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Neesarg_TestLevel
+[2019.08.10-21.45.27:577][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005266s)
+[2019.08.10-21.45.27:578][433]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.10-21.45.27:578][433]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2019.08.10-21.45.27:578][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel to /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel (0.006327s)
+[2019.08.10-21.45.27:618][433]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.08.10-21.45.27:633][433]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.10-21.45.27:761][433]LogInit: FAudioDevice initialized.
+[2019.08.10-21.45.27:797][433]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.10-21.45.27:799][433]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 60) at 2019.08.10-14.45.27
+[2019.08.10-21.45.27:799][433]LogWorld: Bringing up level for play took: 0.000913
+[2019.08.10-21.45.27:812][433]LogBlueprintUserMessages: [BenPlayerController_C_0] BenPlayerController is active!
+[2019.08.10-21.45.27:812][433]LogBlueprintUserMessages: [Ben_C_0] Ben has reference to the RopeSpline!
+[2019.08.10-21.45.27:812][433]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Neesarg_TestLevel 0.076
+[2019.08.10-21.45.27:812][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-21.45.38:754][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-21.45.38:755][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-21.45.38:794][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.10-21.45.38:794][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-21.45.38:836][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-21.45.38:840][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.08.10-21.45.38:865][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.08.10-21.45.49:471][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.10-21.45.52:571][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.10-21.46.48:062][228]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.46.48:243][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.08.10-21.46.48:608][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.46.48:646][248]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben7E6EFD184BC49E75780FDF9E0B1166D4.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.47.36:007][ 81]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.47.36:190][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.08.10-21.47.36:628][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.47.36:661][105]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben2AB4B850463ED2FBE275FB9A5891F731.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.48.38:855][821]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.48.39:036][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.08.10-21.48.39:473][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.48.39:507][845]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben5BD54EAF48AE663AFEF46385238B60A8.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.50.48:784][870]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.08.10-21.50.48:784][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.052
+[2019.08.10-21.50.48:786][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Ben] ([1] browsable assets)...
+[2019.08.10-21.50.48:786][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Ben]
+[2019.08.10-21.50.48:828][870]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben_Auto8A43FCC7C475A46D68A5609A3AF0ADC01.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Autosaves/Game/Blueprints/Ben_Auto8.uasset'
+[2019.08.10-21.50.48:828][870]LogFileHelpers: Auto-saving content packages took 0.043
+[2019.08.10-21.51.56:829][250]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.51.57:017][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.08.10-21.51.57:391][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.51.57:431][270]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenA84594114C98021789818AA964E932B6.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.52.34:644][498]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.52.34:815][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.08.10-21.54.34:142][619]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.54.34:329][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.08.10-21.54.34:864][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.54.34:908][648]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenB6E4C1A34FCDD6FE96F4A7B48AC14EA5.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.55.28:694][869]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.55.28:871][869]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.08.10-21.55.33:543][147]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.55.33:719][147]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.08.10-21.55.34:116][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.55.34:154][169]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenB15AB33C452F246701B8DDA465C64C9E.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.56.04:537][983]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.56.04:718][983]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.08.10-21.56.05:102][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-21.56.05:141][  3]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben52D8124E4FBC0DE08172758AF3C54256.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-21.59.51:555][518]BlueprintLog: New page: Compile Ben
+[2019.08.10-21.59.51:746][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.08.10-22.00.18:935][138]BlueprintLog: New page: Compile Ben
+[2019.08.10-22.00.19:113][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.08.10-22.00.19:483][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.00.19:533][158]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben9FDA5FB846C235B98C39E0A0156A6D9A.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.01.37:881][850]BlueprintLog: New page: Compile Ben
+[2019.08.10-22.01.38:063][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.08.10-22.01.38:507][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.01.38:553][874]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben233B3BF44B450A117F48818CBB303689.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.02.49:922][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.02.49:966][152]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenB6AA169F439E2FEE8B0941AF2F50216C.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.02.51:735][258]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.10-22.02.51:754][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.02.51:754][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.10-22.02.51:754][258]PIE: New page: PIE session: Neesarg_TestLevel (Aug 10, 2019, 8:02:51 AM)
+[2019.08.10-22.02.51:754][258]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Neesarg_TestLevel
+[2019.08.10-22.02.51:760][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005416s)
+[2019.08.10-22.02.51:760][258]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.10-22.02.51:760][258]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2019.08.10-22.02.51:760][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel to /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel (0.006145s)
+[2019.08.10-22.02.51:804][258]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2019.08.10-22.02.51:820][258]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.10-22.02.51:958][258]LogInit: FAudioDevice initialized.
+[2019.08.10-22.02.51:987][258]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.10-22.02.51:989][258]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 60) at 2019.08.10-15.02.51
+[2019.08.10-22.02.51:989][258]LogWorld: Bringing up level for play took: 0.000950
+[2019.08.10-22.02.52:002][258]LogBlueprintUserMessages: [BenPlayerController_C_0] BenPlayerController is active!
+[2019.08.10-22.02.52:002][258]LogBlueprintUserMessages: [Ben_C_0] Ben has reference to the RopeSpline!
+[2019.08.10-22.02.52:003][258]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Neesarg_TestLevel 0.267
+[2019.08.10-22.02.52:003][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.03.10:135][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.03.10:136][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.03.10:167][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.10-22.03.10:167][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.03.10:209][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.03.10:214][346]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.08.10-22.03.10:241][347]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.08.10-22.03.11:235][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.10-22.04.38:198][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.04.38:243][613]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben370A8C0E411B476A5DA0668482F83C8C.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.04.39:554][690]BlueprintLog: New page: Compile Ben
+[2019.08.10-22.04.39:729][690]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.08.10-22.04.40:169][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.04.40:218][713]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Ben8F7EC1C34AD0F2DBE68446B356DF6454.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.04.41:619][797]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.10-22.04.41:638][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.04.41:638][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.10-22.04.41:638][797]PIE: New page: PIE session: Neesarg_TestLevel (Aug 10, 2019, 8:04:41 AM)
+[2019.08.10-22.04.41:639][797]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Neesarg_TestLevel
+[2019.08.10-22.04.41:644][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005570s)
+[2019.08.10-22.04.41:645][797]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.10-22.04.41:645][797]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2019.08.10-22.04.41:645][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel to /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel (0.006168s)
+[2019.08.10-22.04.41:680][797]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.08.10-22.04.41:692][797]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.10-22.04.41:819][797]LogInit: FAudioDevice initialized.
+[2019.08.10-22.04.41:847][797]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.10-22.04.41:848][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 60) at 2019.08.10-15.04.41
+[2019.08.10-22.04.41:849][797]LogWorld: Bringing up level for play took: 0.000702
+[2019.08.10-22.04.41:862][797]LogBlueprintUserMessages: [BenPlayerController_C_0] BenPlayerController is active!
+[2019.08.10-22.04.41:862][797]LogBlueprintUserMessages: [Ben_C_0] Ben has reference to the RopeSpline!
+[2019.08.10-22.04.41:862][797]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Neesarg_TestLevel 0.126
+[2019.08.10-22.04.41:862][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.04.50:144][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.04.50:144][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.04.50:179][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.10-22.04.50:179][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.04.50:221][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.04.50:225][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.08.10-22.04.50:251][294]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.08.10-22.04.50:829][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.10-22.05.11:090][541]BlueprintLog: New page: Compile Ben
+[2019.08.10-22.05.11:266][541]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.08.10-22.05.11:602][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.05.11:647][558]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenCF8114D143702025535181A0E1ED982D.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.05.13:754][684]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.10-22.05.13:775][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.05.13:775][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.10-22.05.13:775][684]PIE: New page: PIE session: Neesarg_TestLevel (Aug 10, 2019, 8:05:13 AM)
+[2019.08.10-22.05.13:776][684]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Neesarg_TestLevel
+[2019.08.10-22.05.13:780][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004746s)
+[2019.08.10-22.05.13:781][684]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.10-22.05.13:781][684]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2019.08.10-22.05.13:781][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel to /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel (0.005395s)
+[2019.08.10-22.05.13:817][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.08.10-22.05.13:829][684]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.10-22.05.13:954][684]LogInit: FAudioDevice initialized.
+[2019.08.10-22.05.13:983][684]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.10-22.05.13:985][684]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 60) at 2019.08.10-15.05.13
+[2019.08.10-22.05.13:985][684]LogWorld: Bringing up level for play took: 0.000695
+[2019.08.10-22.05.13:998][684]LogBlueprintUserMessages: [BenPlayerController_C_0] BenPlayerController is active!
+[2019.08.10-22.05.13:998][684]LogBlueprintUserMessages: [Ben_C_0] Ben has reference to the RopeSpline!
+[2019.08.10-22.05.13:998][684]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Neesarg_TestLevel 0.263
+[2019.08.10-22.05.13:998][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.05.31:963][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.05.31:963][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.05.32:002][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.10-22.05.32:003][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel' with GeneratedClass '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel_C' with ClassGeneratedBy '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Neesarg_TestLevel'
+[2019.08.10-22.05.32:042][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.10-22.05.32:046][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.08.10-22.05.32:085][764]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.08.10-22.05.32:678][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.10-22.05.32:817][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.08.10-22.05.32:978][805]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Neesarg_TestLevel3F1062714BBCA0ED4600EC87B64ACD11.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.10-22.05.34:875][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ben" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset" SILENT=true
+[2019.08.10-22.05.34:924][916]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenF306F3C2434B5EDA87BE178C235473B0.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/Ben.uasset'
+[2019.08.10-22.05.36:994][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BenOnSpline" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/BenOnSpline.uasset" SILENT=true
+[2019.08.10-22.05.37:025][ 39]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenOnSpline2BE9DA5A42F80FB86B3BD6AD4B641C84.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/Blueprints/BenOnSpline.uasset'
+[2019.08.10-22.05.38:181][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BenPlayerController" FILE="../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/BenPlayerController.uasset" SILENT=true
+[2019.08.10-22.05.38:202][107]LogSavePackage: Moving '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/BenPlayerController55358BA048843CDFE8A6FC8EC24615F3.tmp' to '../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Content/BenPlayerController.uasset'
