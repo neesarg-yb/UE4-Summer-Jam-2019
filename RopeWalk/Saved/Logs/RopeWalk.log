@@ -2010,3 +2010,275 @@ Script Stack (0 frames):
 [2019.08.11-19.27.16:226][618]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel60768F194DF8F1924BD2A0878D3674B4.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
 [2019.08.11-19.27.16:255][618]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.196
 [2019.08.11-19.27.16:310][618]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WatermelonDCA0124846461AD038B325BB331FD94C.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Watermelon.uasset'
+[2019.08.11-19.32.05:449][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.34.14:844][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-19.34.20:234][125]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX)
+[2019.08.11-19.34.20:260][125]LogFbx: Loading FBX Scene from ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX
+[2019.08.11-19.34.20:266][125]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-19.34.23:996][125]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.11-19.34.24:078][125]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.34.24:093][125]LogFbx: Display: Triangulating static mesh Plant
+[2019.08.11-19.34.24:133][125]LogStaticMesh: Building static mesh Plant...
+[2019.08.11-19.34.24:138][125]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Models/Plant.Plant
+[2019.08.11-19.34.31:197][588]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/15_-_Default8DBC2FE74587CF9E770E1EA9E2F11E2D.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/15_-_Default.uasset'
+[2019.08.11-19.34.31:296][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.08.11-19.34.31:326][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.11-19.34.31:349][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-19.34.35:383][ 37]LogActorFactory: Actor Factory created Plant
+[2019.08.11-19.34.36:500][160]LogActorFactory: Actor Factory created Plant
+[2019.08.11-19.34.38:972][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.36.02:389][367]Cmd: TRANSACTION UNDO
+[2019.08.11-19.36.02:389][367]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.37.16:329][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.08.11-19.37.16:552][626]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto0DF87F75C45F395513B298585373B01A8.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto0.umap'
+[2019.08.11-19.37.16:557][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.251
+[2019.08.11-19.37.16:557][626]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2019.08.11-19.37.16:559][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Models/Plant] ([1] browsable assets)...
+[2019.08.11-19.37.16:571][626]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Models/Plant.Plant]
+[2019.08.11-19.37.16:571][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Models/Plant]
+[2019.08.11-19.37.16:588][626]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Plant_Auto035905631407AD42B0CAE648E48A06484.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Assets/Models/Plant_Auto0.uasset'
+[2019.08.11-19.37.16:590][626]LogFileHelpers: Auto-saving content packages took 0.032
+[2019.08.11-19.37.19:570][636]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-19.37.29:945][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.37.31:272][389]LogEditorFactories: Performing atomic reimport of [C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX]
+[2019.08.11-19.37.31:294][389]LogFbx: Loading FBX Scene from C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX
+[2019.08.11-19.37.31:299][389]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-19.37.31:300][389]LogFbx: Display: Triangulating static mesh Plant
+[2019.08.11-19.37.31:326][389]LogStaticMesh: Building static mesh Plant...
+[2019.08.11-19.37.31:330][389]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Models/Plant.Plant
+[2019.08.11-19.37.31:454][389]LogEditorFactories: -- imported successfully
+[2019.08.11-19.37.37:909][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.37.38:076][105]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Models/Plant.Plant
+[2019.08.11-19.37.50:183][195]LogStaticMesh: Building static mesh Plant...
+[2019.08.11-19.37.50:188][195]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Models/Plant.Plant
+[2019.08.11-19.38.13:134][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.38.13:269][356]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Materials/15_-_Default.15_-_Default
+[2019.08.11-19.38.13:294][356]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.13:395][356]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.13:425][356]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.13:450][356]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.38.13:524][356]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.38.16:086][542]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.38.19:488][801]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.21:535][981]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.21:733][999]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.38.24:847][271]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.24:958][271]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.24:991][271]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.26:321][375]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.26:401][375]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.26:467][375]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.27:028][416]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.27:091][416]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.27:108][416]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.28:075][482]LogMaterialEditor: Applying material 15_-_Default
+[2019.08.11-19.38.28:706][482]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.38.28:791][482]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.28:876][482]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.28:911][482]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.28:950][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.08.11-19.38.28:958][482]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.11-19.38.31:631][482]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.08.11-19.38.31:631][482]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.11-19.38.31:632][482]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.11-19.38.31:633][482]TextureStreamingBuild: Display: Compiling optional shaders took 2.683 seconds.
+[2019.08.11-19.38.31:656][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-19.38.39:836][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.38.39:920][143]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.39:935][143]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.39:951][143]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.41:884][285]LogMaterialEditor: Applying material 15_-_Default
+[2019.08.11-19.38.42:449][285]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.42:568][285]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.42:637][285]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.38.42:674][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.08.11-19.38.42:681][285]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.11-19.38.46:609][285]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.11-19.38.46:609][285]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.11-19.38.46:610][285]TextureStreamingBuild: Display: Compiling optional shaders took 3.936 seconds.
+[2019.08.11-19.38.46:650][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-19.38.52:013][660]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Materials/15_-_Default.15_-_Default
+[2019.08.11-19.38.52:034][660]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.38.53:579][660]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.38.53:591][660]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.38.53:605][660]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.38.53:712][660]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.38.55:902][803]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.39.03:507][373]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.03:535][373]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.03:567][373]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.03:610][373]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.03:654][373]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.03:684][373]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.03:758][373]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.03:813][373]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.04:067][392]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.04:106][392]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.04:132][392]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.04:177][392]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.04:258][392]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.39.04:258][392]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.04:330][392]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.05:813][494]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.05:914][494]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.06:592][553]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.39.06:866][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.06:909][575]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.06:926][575]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.06:964][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.07:031][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.07:101][575]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.08:054][643]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.08:144][643]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.08:235][643]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-19.39.08:267][643]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.08:280][643]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.11-19.39.09:768][734]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.39.14:956][110]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-19.39.24:940][846]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.08.11-19.39.24:940][846]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.08.11-19.39.24:940][846]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.08.11-19.39.24:940][846]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.11-19.39.27:905][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.39.29:214][ 95]LogSlate: Window 'Message' being destroyed
+[2019.08.11-19.39.29:673][ 95]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.08.11-19.39.29:720][ 95]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-19.39.29:722][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-19.39.29:756][ 95]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.39.29:773][ 95]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.08.11-19.39.29:810][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.08.11-19.39.29:817][ 95]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.11-19.39.32:282][ 95]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.11-19.39.32:282][ 95]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.11-19.39.32:284][ 95]TextureStreamingBuild: Display: Compiling optional shaders took 2.474 seconds.
+[2019.08.11-19.39.32:306][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.11-19.39.33:454][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.39.33:488][173]LogSlate: Window 'Plant' being destroyed
+[2019.08.11-19.39.37:039][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.39.42:567][865]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Green7345B3C04A6CF62B2EE6588023EDCA7D.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Green.uasset'
+[2019.08.11-19.39.42:662][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.08.11-19.39.42:690][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.08.11-19.39.42:713][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-19.40.41:583][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.40.45:823][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.40.46:550][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.40.47:844][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.40.56:064][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.40.56:620][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.40.57:597][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.40.58:758][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.41.01:967][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.41.12:680][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.41.15:249][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.41.15:695][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.42.19:576][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.42.28:249][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.42.33:684][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.42.40:238][520]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.08.11-19.42.56:356][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.43.01:362][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.43.01:968][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.43.03:168][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.43.12:580][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.43.22:473][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.43.30:440][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.43.55:568][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.43.57:870][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.44.07:524][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.45.04:647][996]Cmd: TRANSACTION UNDO
+[2019.08.11-19.45.04:647][996]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.45.04:817][  7]Cmd: TRANSACTION UNDO
+[2019.08.11-19.45.04:817][  7]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.45.05:054][ 21]Cmd: TRANSACTION UNDO
+[2019.08.11-19.45.05:054][ 21]LogEditorTransaction: Undo Rotate Actors
+[2019.08.11-19.45.22:315][979]LogEditorViewport: Clicking Background
+[2019.08.11-19.45.36:621][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.45.43:645][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.45.44:129][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.45.47:460][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.45.48:243][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.45.52:997][580]Cmd: TRANSACTION UNDO
+[2019.08.11-19.45.52:997][580]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.45.57:874][ 97]LogEditorViewport: Clicking on Actor (LMB): RopeSpline_C (RopeSpline)
+[2019.08.11-19.46.13:021][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.46.31:432][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.47.16:848][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.08.11-19.47.17:023][619]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto1E28417EB40FF0357676C07A75A8922D8.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto1.umap'
+[2019.08.11-19.47.17:027][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.202
+[2019.08.11-19.47.17:027][619]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.202
+[2019.08.11-19.47.17:029][619]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Models/Plant] ([1] browsable assets)...
+[2019.08.11-19.47.17:041][619]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Models/Plant.Plant]
+[2019.08.11-19.47.17:041][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Models/Plant]
+[2019.08.11-19.47.17:059][619]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Plant_Auto1D03B6A08473303EC192A0EB9D6FD7AA5.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Assets/Models/Plant_Auto1.uasset'
+[2019.08.11-19.47.17:059][619]LogFileHelpers: Auto-saving content packages took 0.031
+[2019.08.11-19.47.21:555][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.47.23:919][104]LogEditorFactories: Performing atomic reimport of [C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX]
+[2019.08.11-19.47.23:941][104]LogFbx: Loading FBX Scene from C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Plant.FBX
+[2019.08.11-19.47.23:946][104]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-19.47.23:947][104]LogFbx: Display: Triangulating static mesh Plant
+[2019.08.11-19.47.23:974][104]LogStaticMesh: Building static mesh Plant...
+[2019.08.11-19.47.23:979][104]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Models/Plant.Plant
+[2019.08.11-19.47.24:174][104]LogEditorFactories: -- imported successfully
+[2019.08.11-19.47.27:334][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.47.39:839][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.47.44:630][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.47.51:850][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.47.56:241][689]Cmd: TRANSACTION UNDO
+[2019.08.11-19.47.56:241][689]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.48.05:420][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant)
+[2019.08.11-19.48.10:087][279]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.08.11-19.48.14:236][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.48.22:548][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.51.46:558][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant3)
+[2019.08.11-19.52.07:378][345]LogEditorViewport: Clicking Background
+[2019.08.11-19.52.10:810][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant4)
+[2019.08.11-19.53.51:798][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.53.52:337][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.53.53:664][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant5)
+[2019.08.11-19.53.54:429][376]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.53.55:022][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant4)
+[2019.08.11-19.53.55:854][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.53.56:658][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant2)
+[2019.08.11-19.54.04:758][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant5)
+[2019.08.11-19.54.05:521][645]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plant4)
+[2019.08.11-19.54.25:271][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant6)
+[2019.08.11-19.54.26:501][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant7)
+[2019.08.11-19.54.32:725][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant6)
+[2019.08.11-19.54.39:036][492]LogEditorViewport: Clicking Background
+[2019.08.11-19.54.43:341][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant7)
+[2019.08.11-19.54.59:585][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant9)
+[2019.08.11-19.55.02:744][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant8)
+[2019.08.11-19.55.11:852][261]Cmd: TRANSACTION UNDO
+[2019.08.11-19.55.11:852][261]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.55.12:988][387]Cmd: TRANSACTION UNDO
+[2019.08.11-19.55.12:988][387]LogEditorTransaction: Undo Clicking on Actors
+[2019.08.11-19.55.14:202][529]Cmd: TRANSACTION UNDO
+[2019.08.11-19.55.14:202][529]LogEditorTransaction: Undo Move Actors
+[2019.08.11-19.55.14:578][573]Cmd: TRANSACTION UNDO
+[2019.08.11-19.55.14:579][573]LogEditorTransaction: Undo Clicking on Actors
+[2019.08.11-19.55.23:354][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plant9)
+[2019.08.11-19.55.46:027][203]LogEditorViewport: Clicking Background
+[2019.08.11-19.55.59:898][851]LogEditorViewport: Clicking Background
+[2019.08.11-19.57.17:286][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.11-19.57.17:452][523]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto2A2FBF8064612DCB2257A819280D88220.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto2.umap'
+[2019.08.11-19.57.17:455][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.193
+[2019.08.11-19.57.17:455][523]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
+[2019.08.11-19.57.17:457][523]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Models/Plant] ([1] browsable assets)...
+[2019.08.11-19.57.17:470][523]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Models/Plant.Plant]
+[2019.08.11-19.57.17:470][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Models/Plant]
+[2019.08.11-19.57.17:497][523]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Plant_Auto2979BC3E6456926E3B897EF85027B811A.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Assets/Models/Plant_Auto2.uasset'
+[2019.08.11-19.57.17:499][523]LogFileHelpers: Auto-saving content packages took 0.042
+[2019.08.11-20.00.32:128][986]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.00.33:366][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.08.11-20.00.33:372][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.00.33:404][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.11-20.00.33:542][116]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevelD741F90643F659DC75611FA0E80AFFED.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-20.00.33:577][116]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.199
+[2019.08.11-20.00.33:579][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Plant" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Plant.uasset" SILENT=true
+[2019.08.11-20.00.33:589][116]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Plant1F9FA09341FAFD53256C838D39460998.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Plant.uasset'
+[2019.08.11-20.03.00:063][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.03.01:105][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.08.11-20.09.53:671][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.09.53:871][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.09.54:545][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.09.55:328][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
