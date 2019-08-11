@@ -89,3 +89,9 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 *.pak
+RopeWalk/Intermediate/CachedAssetRegistry.bin
+RopeWalk/Saved/AutoScreenshot.png
+RopeWalk/Saved/Config/CrashReportClient/UE4CC-Windows-420EFB4C4C4444BCF26A0DAE0E2F1ABF/CrashReportClient.ini
+RopeWalk/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+RopeWalk/Saved/Logs/RopeWalk-backup-2019.08.11-05.01.33.log
+RopeWalk/Saved/Logs/RopeWalk.log
