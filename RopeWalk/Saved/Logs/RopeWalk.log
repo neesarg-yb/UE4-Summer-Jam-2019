@@ -1952,3 +1952,61 @@ Script Stack (0 frames):
 [2019.08.11-18.49.42:466][126]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.08.11-18.49.43:507][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
 [2019.08.11-18.49.46:686][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.52.55:209][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.08.11-18.53.58:638][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.11-18.53.58:645][891]Cmd: MAP LOAD FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.11-18.53.58:655][891]LightingResults: New page: Lighting Build
+[2019.08.11-18.53.58:686][891]LoadErrors: New page: Loading map: Neesarg_TestLevel.umap
+[2019.08.11-18.53.58:687][891]MapCheck: New page: Map Check
+[2019.08.11-18.53.58:687][891]LightingResults: New page: Lighting Build
+[2019.08.11-18.53.58:732][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.08.11-18.53.59:380][891]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.11-18.53.59:512][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.11-18.53.59:599][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.08.11-18.53.59:631][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.11-18.53.59:642][891]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.254ms to complete.
+[2019.08.11-18.53.59:642][891]LogFileHelpers: Loading map 'Neesarg_TestLevel' took 1.003
+[2019.08.11-18.53.59:642][891]LogSlate: Window 'Open Level' being destroyed
+[2019.08.11-18.54.02:247][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.54.02:267][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_30, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:267][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_30' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:267][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_30.BodySetup_0 when we are unable to.
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_31, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_31' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_31.BodySetup_0 when we are unable to.
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_32, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_32' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:300][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_32.BodySetup_0 when we are unable to.
+[2019.08.11-18.54.02:360][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_33, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:360][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_33' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:360][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_33.BodySetup_0 when we are unable to.
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_34, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_34' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_34.BodySetup_0 when we are unable to.
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_35, Buffer: 218abab0, Buffer Size: 0, Element: 0
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_35' invalid (24 verts, 0 indices).
+[2019.08.11-18.54.02:361][163]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.ModelComponent_35.BodySetup_0 when we are unable to.
+[2019.08.11-18.58.27:487][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.25.02:757][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wine)
+[2019.08.11-19.25.11:702][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.25.26:343][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Microwave)
+[2019.08.11-19.25.29:765][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-19.25.30:802][856]LogEditorViewport: Clicking Background
+[2019.08.11-19.26.11:235][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.08.11-19.26.11:404][308]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto9B934AC5F48E8A602FB911B85CBFAA62D.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto9.umap'
+[2019.08.11-19.26.11:408][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.202
+[2019.08.11-19.26.11:408][308]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.202
+[2019.08.11-19.26.53:808][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.27.01:227][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-19.27.09:198][971]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Watermelon.FBX)
+[2019.08.11-19.27.09:209][971]LogFbx: Loading FBX Scene from ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Watermelon.FBX
+[2019.08.11-19.27.09:214][971]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-19.27.10:241][971]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.11-19.27.10:265][971]LogFbx: Display: Triangulating static mesh Watermelon
+[2019.08.11-19.27.10:296][971]LogStaticMesh: Building static mesh Watermelon...
+[2019.08.11-19.27.10:301][971]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Models/Watermelon.Watermelon
+[2019.08.11-19.27.16:046][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.08.11-19.27.16:083][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-19.27.16:226][618]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel60768F194DF8F1924BD2A0878D3674B4.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-19.27.16:255][618]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.196
+[2019.08.11-19.27.16:310][618]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WatermelonDCA0124846461AD038B325BB331FD94C.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Watermelon.uasset'
