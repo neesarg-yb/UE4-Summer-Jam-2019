@@ -1408,3 +1408,547 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.11-16.46.36:733][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
 [2019.08.11-16.46.40:170][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.08.11-16.46.41:022][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.08.11-17.46.00:902][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-17.46.02:143][774]LogEditorFactories: Performing atomic reimport of [C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Canyon.FBX]
+[2019.08.11-17.46.02:164][774]LogFbx: Loading FBX Scene from C:/Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Canyon.FBX
+[2019.08.11-17.46.02:171][774]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-17.46.02:303][774]LogFbx: Display: Triangulating static mesh Plane001
+[2019.08.11-17.46.02:487][774]LogStaticMesh: Building static mesh Canyon...
+[2019.08.11-17.46.02:531][774]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Canyon.Canyon
+[2019.08.11-17.46.02:577][774]LogEditorFactories: -- imported successfully
+[2019.08.11-17.46.05:840][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House)
+[2019.08.11-17.46.18:002][521]LogEditorViewport: Clicking Background
+[2019.08.11-17.46.25:366][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House)
+[2019.08.11-17.46.44:476][583]LogEditorViewport: Clicking Background
+[2019.08.11-17.47.09:758][604]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-17.47.09:811][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.08.11-17.47.10:010][604]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto65AD48DAF4311829B65AC4D90BCB58C38.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto6.umap'
+[2019.08.11-17.47.10:028][604]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.242
+[2019.08.11-17.47.10:028][604]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.242
+[2019.08.11-17.47.10:029][604]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Canyon] ([1] browsable assets)...
+[2019.08.11-17.47.10:042][604]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Canyon.Canyon]
+[2019.08.11-17.47.10:042][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Canyon]
+[2019.08.11-17.47.10:116][604]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Canyon_Auto6379AF278477699492EB12AAC6DE94F5A.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Assets/Canyon_Auto6.uasset'
+[2019.08.11-17.47.10:117][604]LogFileHelpers: Auto-saving content packages took 0.088
+[2019.08.11-17.54.41:422][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.00.44:012][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.08.11-18.00.44:073][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.08.11-18.00.45:318][475]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevelAADF7B764A68E9803BBBE18AD9640740.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-18.00.45:413][475]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 1.366
+[2019.08.11-18.00.45:417][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Canyon" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Canyon.uasset" SILENT=true
+[2019.08.11-18.00.45:542][475]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/CanyonE0610FE44F5B0A7B8D12AD8E67C68A7F.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Canyon.uasset'
+[2019.08.11-18.02.29:816][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.23.17:422][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.23.32:033][846]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Master_Mat.Master_Mat
+[2019.08.11-18.23.32:173][846]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.23.32:899][846]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.23.32:921][846]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.23.32:994][846]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.23.37:096][999]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.23.38:715][ 17]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.23.45:883][343]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.08.11-18.23.45:883][343]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.08.11-18.23.45:883][343]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.08.11-18.23.45:883][343]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.11-18.24.06:743][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.08.11-18.24.06:743][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.023
+[2019.08.11-18.24.06:744][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Master_Mat] ([1] browsable assets)...
+[2019.08.11-18.24.06:758][405]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Master_Mat.Master_Mat]
+[2019.08.11-18.24.06:758][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Master_Mat]
+[2019.08.11-18.24.06:843][405]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Master_Mat_Auto7C4124A21404380D7E02D3C91E2499727.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Assets/Master_Mat_Auto7.uasset'
+[2019.08.11-18.24.06:844][405]LogFileHelpers: Auto-saving content packages took 0.101
+[2019.08.11-18.30.55:845][432]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.30.55:871][432]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.30.55:871][432]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.11-18.30.57:477][552]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.30.57:506][552]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.30.57:532][552]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.30.57:646][552]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.01:878][879]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.02:389][909]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.02:423][909]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.31.03:926][ 10]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.04:941][ 90]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.04:959][ 90]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.31.05:747][150]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.05:862][150]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.05:862][150]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.31.05:890][150]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.11-18.31.08:690][368]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.22:671][606]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.31.34:903][680]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.11-18.31.38:100][939]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.08.11-18.31.38:100][939]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.08.11-18.31.38:100][939]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.08.11-18.31.38:100][939]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.11-18.31.53:105][406]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.53:136][406]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.53:136][406]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.11-18.31.53:172][406]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.31.53:217][406]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.11-18.31.53:588][425]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.31.56:344][664]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.31.57:592][776]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.31.57:619][776]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.11-18.31.59:604][942]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.01:586][ 26]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.32.05:126][229]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.32.06:002][303]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.06:909][369]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.32.06:946][369]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.06:946][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.32.07:540][419]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.09:203][569]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.32.09:296][577]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.32.09:336][577]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.08.11-18.32.11:520][768]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.15:062][102]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.32.17:446][319]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.32.20:811][584]LogActorFactory: Actor Factory created Wine
+[2019.08.11-18.32.20:854][585]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.32.22:232][685]LogActorFactory: Actor Factory created Wine
+[2019.08.11-18.32.28:281][175]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.08.11-18.32.28:282][175]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.08.11-18.32.28:282][175]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.08.11-18.32.28:282][175]MaterialEditorStats: Texture samplers: 4/16
+[2019.08.11-18.32.28:282][175]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.08.11-18.32.28:282][175]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.11-18.32.38:507][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.33.27:505][187]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/MI_Wine.MI_Wine
+[2019.08.11-18.33.27:827][187]LogRenderer: Reallocating scene render targets to support 1432x960 Format 10 NumSamples 1 (Frame:1).
+[2019.08.11-18.33.31:922][558]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.33.31:966][558]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.33.31:966][558]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.08.11-18.33.32:022][558]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.08.11-18.33.32:077][558]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.33.32:174][558]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.08.11-18.33.33:542][658]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.33.36:792][931]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.33.46:512][727]LogMaterialEditor: Applying material Master_Mat
+[2019.08.11-18.33.50:643][727]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.33.50:695][727]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.33.50:743][727]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.33.50:777][727]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.33.50:866][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.08.11-18.33.50:874][727]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.11-18.33.53:582][727]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.11-18.33.53:582][727]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.11-18.33.53:588][727]TextureStreamingBuild: Display: Compiling optional shaders took 2.722 seconds.
+[2019.08.11-18.33.55:437][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.33.59:149][ 25]LogSlate: Window 'MI_Wine' being destroyed
+[2019.08.11-18.33.59:245][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.08.11-18.33.59:267][ 25]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.08.11-18.33.59:291][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.08.11-18.34.05:147][644]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/MI_Wine.MI_Wine
+[2019.08.11-18.34.14:077][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.34.22:997][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.08.11-18.34.23:937][443]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.11-18.34.23:944][443]LogSlate: Window 'MI_Wine' being destroyed
+[2019.08.11-18.34.23:983][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.08.11-18.34.24:001][443]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.08.11-18.34.24:026][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.34.24:072][443]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/MI_Wine.MI_Wine
+[2019.08.11-18.34.24:477][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.08.11-18.34.27:163][722]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Master_Mat.Master_Mat
+[2019.08.11-18.34.27:211][722]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.34.27:313][722]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.34.27:341][722]LogMaterial: Display: Missing cached shader map for material Master_Mat, compiling. 
+[2019.08.11-18.34.27:366][722]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.34.27:379][722]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.11-18.34.27:386][722]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.08.11-18.34.29:376][876]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.11-18.34.36:746][512]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: Texture samplers: 4/16
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.08.11-18.34.39:530][725]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.08.11-18.34.40:639][804]LogSlate: Window 'Master_Mat' being destroyed
+[2019.08.11-18.34.40:645][804]LogSlate: Window 'Master_Mat' being destroyed
+[2019.08.11-18.34.53:129][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.34.59:091][300]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Textures/Microwave.png)
+[2019.08.11-18.34.59:196][300]LogTexture: Display: Building textures: Microwave (AutoDXT, 512X512)
+[2019.08.11-18.35.09:267][430]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/MI_Wine.MI_Wine
+[2019.08.11-18.35.39:062][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MI_Wine" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Wine.uasset" SILENT=true
+[2019.08.11-18.35.39:088][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.08.11-18.35.39:094][541]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.08.11-18.35.39:117][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.35.39:130][541]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Wine7CF63E26434C8A26C7876D82980CA827.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Wine.uasset'
+[2019.08.11-18.35.40:292][666]LogSlate: Window 'MI_Wine' being destroyed
+[2019.08.11-18.35.50:587][823]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.08.11-18.35.58:153][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MI_Microwave2" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Microwave2.uasset" SILENT=true
+[2019.08.11-18.35.58:167][106]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Microwave277B6C94A4FE576D1D5CC86BAEC6DAF7E.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Microwave2.uasset'
+[2019.08.11-18.35.58:258][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.08.11-18.35.58:285][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.08.11-18.35.58:307][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.36.04:410][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MI_Wine" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Wine.uasset" SILENT=true
+[2019.08.11-18.36.04:425][794]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_WineB458100749B1DFF9104CACB516558B43.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Wine.uasset'
+[2019.08.11-18.36.04:521][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.08.11-18.36.04:549][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.08.11-18.36.04:572][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.36.05:707][906]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/MI_Microwave2.MI_Microwave2
+[2019.08.11-18.36.09:927][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MI_Microwave" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Microwave.uasset" SILENT=true
+[2019.08.11-18.36.09:942][313]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Microwave35D0C5DD421B71A9EBE591A25A7D2BD7.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/MI_Microwave.uasset'
+[2019.08.11-18.36.10:030][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.08.11-18.36.10:057][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.08.11-18.36.10:080][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.36.11:130][413]LogSlate: Window 'MI_Microwave' being destroyed
+[2019.08.11-18.36.11:135][413]LogSlate: Window 'MI_Microwave' being destroyed
+[2019.08.11-18.36.27:011][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.36.27:287][286]LogActorFactory: Actor Factory created Character
+[2019.08.11-18.36.28:111][370]LogActorFactory: Actor Factory created Character
+[2019.08.11-18.36.33:332][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.36.40:486][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wine)
+[2019.08.11-18.36.41:569][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.37.06:852][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.37.14:730][686]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.14:730][686]LogEditorTransaction: Undo Set Scale
+[2019.08.11-18.37.15:516][753]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.15:516][753]LogEditorTransaction: Undo Set Scale
+[2019.08.11-18.37.17:776][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.37.32:194][678]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.32:194][678]LogEditorTransaction: Undo Move Actors
+[2019.08.11-18.37.32:401][698]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.32:401][698]LogEditorTransaction: Undo Set Scale
+[2019.08.11-18.37.32:567][711]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.32:567][711]LogEditorTransaction: Undo Move Actors
+[2019.08.11-18.37.38:249][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.37.47:074][359]Cmd: TRANSACTION UNDO
+[2019.08.11-18.37.47:074][359]LogEditorTransaction: Undo Set Scale
+[2019.08.11-18.38.15:571][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.38.23:995][523]LogMetaData: Removing '/Game/Assets/Models/Character.Character' ref from Metadata '/Game/Assets/Character.PackageMetaData'
+[2019.08.11-18.38.24:080][523]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Character302F540D42762989219344AAF054B681.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Character.uasset'
+[2019.08.11-18.38.24:213][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.08.11-18.38.24:257][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.08.11-18.38.24:280][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.38.35:096][785]LogMetaData: Removing '/Game/Assets/Models/Character_without_rig.Character_without_rig' ref from Metadata '/Game/Assets/Models/Character.PackageMetaData'
+[2019.08.11-18.38.35:159][785]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Character_without_rig78C24A5D459B8C9AB9AC1D97E4FF7274.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Character_without_rig.uasset'
+[2019.08.11-18.38.35:251][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.08.11-18.38.35:280][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.08.11-18.38.35:303][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.08.11-18.38.41:527][482]LogMetaData: Removing '/Game/Assets/Models/House.House' ref from Metadata '/Game/Assets/House.PackageMetaData'
+[2019.08.11-18.38.41:552][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.38.41:575][482]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House9E1FE2F24D0590A685EC139106763F4C.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.38.41:595][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/House.uasset" SILENT=true
+[2019.08.11-18.38.41:630][482]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/HouseEC129B3D4A0D72F250FB2589F240DD66.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/House.uasset'
+[2019.08.11-18.38.46:252][976]LogMetaData: Removing '/Game/Assets/Models/Canyon.Canyon' ref from Metadata '/Game/Assets/Canyon.PackageMetaData'
+[2019.08.11-18.38.46:280][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Canyon" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset" SILENT=true
+[2019.08.11-18.38.46:303][976]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/CanyonD59CE0074D274A9EBD9D0C9C3BBDF1C4.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset'
+[2019.08.11-18.38.46:310][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Canyon" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Canyon.uasset" SILENT=true
+[2019.08.11-18.38.46:328][976]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Canyon99C03C554B20D7F771BCA48909985ACD.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Canyon.uasset'
+[2019.08.11-18.38.48:804][246]LogMetaData: Removing '/Game/Assets/Models/Rope.Rope' ref from Metadata '/Game/Assets/Rope.PackageMetaData'
+[2019.08.11-18.38.48:848][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Rope" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Rope.uasset" SILENT=true
+[2019.08.11-18.38.48:911][246]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Rope5F944A1F4665DC19E94E52872C8D9D2B.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Rope.uasset'
+[2019.08.11-18.38.48:933][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rope" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Rope.uasset" SILENT=true
+[2019.08.11-18.38.48:971][246]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Rope9B2610E74DD7A28396BC45ACE5C119A1.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Rope.uasset'
+[2019.08.11-18.38.51:031][466]LogMetaData: Removing '/Game/Assets/Models/Wine.Wine' ref from Metadata '/Game/Assets/Wine.PackageMetaData'
+[2019.08.11-18.38.51:057][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Wine" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Wine.uasset" SILENT=true
+[2019.08.11-18.38.51:075][466]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WineCA4E7BFE4D89BDB96A9AA5864E750B6C.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Wine.uasset'
+[2019.08.11-18.38.51:165][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.08.11-18.38.51:193][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.08.11-18.38.51:216][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.39.04:082][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WineTex4CD0040744826B9D75278AB1426DB2B6.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/WineTex.uasset'
+[2019.08.11-18.39.04:114][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/01_-_DefaultB086CC694FCEA31BE96191901ED833DF.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/01_-_Default.uasset'
+[2019.08.11-18.39.04:146][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/02_-_DefaultAD6571E54AE303ABC1557A899152B631.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/02_-_Default.uasset'
+[2019.08.11-18.39.04:179][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/03_-_DefaultD0D13A5B4DCE40EE62B93781A772B575.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/03_-_Default.uasset'
+[2019.08.11-18.39.04:209][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/07_-_Default2F5A44924252BFFE74F72EAF77123435.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/07_-_Default.uasset'
+[2019.08.11-18.39.04:258][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/07_-_Default_2F848D4754D05195C0D90CCB3B0F95A3F.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/07_-_Default_2.uasset'
+[2019.08.11-18.39.04:296][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/07_-_Default_2" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/07_-_Default_2.uasset" SILENT=true
+[2019.08.11-18.39.04:337][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/07_-_Default_22806B0CB4B42FF4DBB2F0C802E548EF2.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/07_-_Default_2.uasset'
+[2019.08.11-18.39.04:368][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/08_-_Default3CEFBD7D4AAB9A8CD62EA1A22CFDE05E.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/08_-_Default.uasset'
+[2019.08.11-18.39.04:400][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/09_-_DefaultBB0815FF47D1774C444892B745493E58.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/09_-_Default.uasset'
+[2019.08.11-18.39.04:430][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/13_-_DefaultD59036DF46EB1384F4301B85127F7F6E.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/13_-_Default.uasset'
+[2019.08.11-18.39.04:460][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/19_-_Default591F57834F9CE08E875C1BA9B595D2A6.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/19_-_Default.uasset'
+[2019.08.11-18.39.04:490][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Master_Mat87E8A5DA466A5EFF2B36B591A9253EBD.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Master_Mat.uasset'
+[2019.08.11-18.39.04:527][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MicrowaveF80A2C1E40882F5B719C609F94F9DCB4.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Microwave.uasset'
+[2019.08.11-18.39.04:585][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Microwave7053888C42BAE6A2A112B5A27D827939.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Microwave.uasset'
+[2019.08.11-18.39.04:614][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Wine587E7A4A444979DF9C64098DC1106DE2.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Wine.uasset'
+[2019.08.11-18.39.05:158][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.39.05:180][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.08.11-18.39.05:203][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.39.05:226][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.11-18.39.05:249][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.39.05:273][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.39.05:296][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.08.11-18.39.05:320][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.08.11-18.39.05:343][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.08.11-18.39.05:364][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.39.05:386][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.39.05:409][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.39.05:444][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.39.05:536][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.08.11-18.39.05:559][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.39.05:572][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Canyon" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset" SILENT=true
+[2019.08.11-18.39.05:667][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Canyon1878152D4DD48E4EC000569D663416D2.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset'
+[2019.08.11-18.39.05:670][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.39.05:692][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House2F171047425C3655C2C2FB93DEDE53C4.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.39.05:721][874]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Character_without_rig114BCF524CEA8F61F6F9358163A3DA10.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Character_without_rig.uasset'
+[2019.08.11-18.39.23:601][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.39.27:399][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.39.28:856][452]Cmd: TRANSACTION UNDO
+[2019.08.11-18.39.28:856][452]LogEditorTransaction: Undo Create Actors
+[2019.08.11-18.39.30:187][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.39.31:952][776]Cmd: TRANSACTION UNDO
+[2019.08.11-18.39.31:952][776]LogEditorTransaction: Undo Create Actors
+[2019.08.11-18.39.33:455][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.39.34:885][ 80]Cmd: TRANSACTION UNDO
+[2019.08.11-18.39.34:885][ 80]LogEditorTransaction: Undo Create Actors
+[2019.08.11-18.39.38:569][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.39.50:525][873]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Orange2464411D4F1EF38557CD8F9B528A4662.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Orange.uasset'
+[2019.08.11-18.39.50:614][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.08.11-18.39.50:641][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.08.11-18.39.50:664][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.39.50:675][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Canyon" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset" SILENT=true
+[2019.08.11-18.39.50:698][873]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Canyon5F8C94CB42BB5605E74554B0F9A253DC.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Canyon.uasset'
+[2019.08.11-18.40.01:169][ 93]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Beige2A190FB74D1FC0B69B53018C1F73A743.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Beige.uasset'
+[2019.08.11-18.40.01:253][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.01:280][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.08.11-18.40.01:303][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-18.40.07:030][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.40.12:455][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.40.19:052][ 94]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_WoodE9A12B534EBB56531FA36A9B999BF8EE.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Wood.uasset'
+[2019.08.11-18.40.19:140][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.40.19:168][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.08.11-18.40.19:191][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.08.11-18.40.19:201][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.40.19:222][ 94]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House549BF4C744D4C4B5F89D4689D7B82231.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.40.26:809][958]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Red61F45E55453AA01173C0C0B12A89B214.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Red.uasset'
+[2019.08.11-18.40.26:904][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2019.08.11-18.40.26:932][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.08.11-18.40.26:954][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.26:964][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.40.26:984][958]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House09DAFE6444797911AF3BC4977B4FA5CA.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.40.32:225][552]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Yellow75C92C4D47D65FC0514AACBD63B79A75.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Yellow.uasset'
+[2019.08.11-18.40.32:310][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.08.11-18.40.32:337][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.08.11-18.40.32:358][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.32:368][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/07_-_Default_2" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/07_-_Default_2.uasset" SILENT=true
+[2019.08.11-18.40.32:381][552]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/07_-_Default_2CA4C0F354EC49A40A8787BA843CA49F2.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/07_-_Default_2.uasset'
+[2019.08.11-18.40.40:656][473]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.08.11-18.40.49:259][992]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Cream1FBD3C5D47DC8C132DF8D49E0EA127B2.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Cream.uasset'
+[2019.08.11-18.40.49:344][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.08.11-18.40.49:371][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.08.11-18.40.49:394][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.49:404][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.40.49:426][992]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House29FA20004C98E515BC7F3091BC82C350.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.40.54:879][612]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_LGrey25136EBC400346A1371ED68BF3D66052.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_LGrey.uasset'
+[2019.08.11-18.40.54:965][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.54:993][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.08.11-18.40.55:016][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.40.55:025][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.40.55:046][612]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House8301868C43ADE46B1171D392D240B34F.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.40.59:962][160]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_DGreyC51BE2F44EBA9042C9B302BCA6BE8C0C.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_DGrey.uasset'
+[2019.08.11-18.41.00:049][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.41.00:076][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.08.11-18.41.00:098][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.41.00:108][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/House" FILE="../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset" SILENT=true
+[2019.08.11-18.41.00:129][160]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/House988815F6452BC9DA8D3370802D9DDD82.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/House.uasset'
+[2019.08.11-18.41.07:251][991]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_White7F092E8647AAAD986642F4A3A6116B72.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_White.uasset'
+[2019.08.11-18.41.07:341][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.11-18.41.07:370][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.08.11-18.41.07:393][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.41.07:424][991]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Character_without_rig082EC12B4AC33A53EDA10FB72C09200E.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Character_without_rig.uasset'
+[2019.08.11-18.41.11:555][453]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Microwave96051B4F43536D7E37CB97AE857AC4C1.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Microwave.uasset'
+[2019.08.11-18.41.11:667][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.41.11:706][453]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.08.11-18.41.16:777][453]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.049 s
+[2019.08.11-18.41.16:792][453]LogOutputDevice: Error: === Handled ensure: ===
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: 
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 219]
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: Found circular redirect from /Game/Assets/Materials/Microwave.Microwave to /Game/Assets/Materials/Microwave.Microwave! Returning None instead
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: Stack: 
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9a02690 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b96d4d22 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b995c2ca UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b99674c9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9709017 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b96a06c3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9967113 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b981533c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9927d99 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b99280a1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b981736c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9815412 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9927d99 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b98cdced UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b99280a1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b981736c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b98ce3f3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b98cc9f7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b98cc6f4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff893c3884f UE4Editor-Engine.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b990c315 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b992b619 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8b9913f55 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff891e59ddb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff891e5a757 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff891e8fce4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff891e8c5b5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff89261f0aa UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8921cda24 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8921cc599 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8921e00b2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff88206ab57 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8820ba9d7 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f7c6ba9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f87948a UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f8743a8 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f87e560 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f7910b9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff87f791308 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af0a8bef UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af0af390 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af08a2c4 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af142a12 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af0b0c95 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8aef94021 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8af010301 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8aeffaaca UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8aeff0414 UE4Editor-Slate.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8cd57b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8cd56ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8cd57d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8cd56c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8de65ca66 USER32.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8de65c582 USER32.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8cd57e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff7dd675d3e UE4Editor.exe!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff7dd68554c UE4Editor.exe!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff7dd6855ca UE4Editor.exe!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff7dd69316c UE4Editor.exe!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff7dd695b8e UE4Editor.exe!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8dd5a7974 KERNEL32.DLL!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: [Callstack] 0x00007ff8de88a271 ntdll.dll!UnknownFunction []
+[2019.08.11-18.41.16:793][453]LogOutputDevice: Error: 
+[2019.08.11-18.41.16:797][453]LogStats:                SubmitErrorReport -  0.000 s
+[2019.08.11-18.41.31:962][453]LogStats:                    SendNewReport - 15.165 s
+[2019.08.11-18.41.31:962][453]LogStats:             FDebug::EnsureFailed - 20.256 s
+[2019.08.11-18.41.31:968][453]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Microwave4D7C85624510251C61250083C4541076.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Microwave.uasset'
+[2019.08.11-18.41.32:218][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.08.11-18.41.32:465][454]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel_Auto83AA5DE4C40C0823ECF60B2845A324403.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Autosaves/Game/Levels/Neesarg_TestLevel_Auto8.umap'
+[2019.08.11-18.41.32:471][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Neesarg_TestLevel' took 0.357
+[2019.08.11-18.41.32:472][454]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2019.08.11-18.41.34:203][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.41.34:952][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.08.11-18.41.34:958][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.41.34:988][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.08.11-18.41.35:143][651]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel369C03F44FAF157D5CCB7A98CF064A33.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-18.41.35:173][651]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.210
+[2019.08.11-18.41.39:843][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.41.55:837][757]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Microwave.FBX)
+[2019.08.11-18.41.55:848][757]LogFbx: Loading FBX Scene from ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Microwave.FBX
+[2019.08.11-18.41.55:854][757]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-18.41.57:091][757]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.11-18.41.57:115][757]LogFbx: Display: Triangulating static mesh Microwave
+[2019.08.11-18.41.57:164][757]LogStaticMesh: Building static mesh Microwave...
+[2019.08.11-18.41.57:169][757]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Models/Microwave.Microwave
+[2019.08.11-18.41.57:170][757]LogStaticMesh: Warning: Microwave has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.08.11-18.41.57:211][757]FBXImport: Warning: Microwave has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.08.11-18.41.59:824][ 58]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-18.41.59:828][ 58]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-18.42.07:346][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.42.07:504][937]LogActorFactory: Actor Factory created Microwave
+[2019.08.11-18.42.08:199][ 10]LogActorFactory: Actor Factory created Microwave
+[2019.08.11-18.42.15:329][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Canyon)
+[2019.08.11-18.42.16:015][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Microwave)
+[2019.08.11-18.42.23:417][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.42.59:255][747]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MicrowaveCA7D8507451B80AE1ED9B49BF3D0C398.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Albedo_Maps/Microwave.uasset'
+[2019.08.11-18.42.59:348][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.08.11-18.42.59:377][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.08.11-18.42.59:400][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.08.11-18.42.59:426][747]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_MicrowaveF527491D4A9032C64EBC7C9E21EAF26F.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Microwave.uasset'
+[2019.08.11-18.43.01:399][952]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WineTexB123BC1448F076305CF854ADF41C8AE7.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Albedo_Maps/WineTex.uasset'
+[2019.08.11-18.43.01:486][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.43.01:513][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.08.11-18.43.01:535][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.43.01:564][952]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Master_Mat48540D944B00B987D25A03834A17EC8A.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Master_Mat.uasset'
+[2019.08.11-18.43.07:442][611]Cmd: TRANSACTION UNDO
+[2019.08.11-18.43.07:442][611]LogEditorTransaction: Undo Move Actors
+[2019.08.11-18.43.07:602][626]Cmd: TRANSACTION UNDO
+[2019.08.11-18.43.07:602][626]LogEditorTransaction: Undo Move Actors
+[2019.08.11-18.43.21:988][196]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/WineTex1EEB09694AAE9EC4BED9F6B431C394CB.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/WineTex.uasset'
+[2019.08.11-18.43.22:081][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.08.11-18.43.22:108][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.08.11-18.43.22:131][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.08.11-18.43.22:169][196]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Master_Mat3099CFBA489AB1939008E78F27A1AA28.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Master_Mat.uasset'
+[2019.08.11-18.43.25:220][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.43.27:262][532]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.11-18.43.33:723][259]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Microwave7E9ACBBA4372D01ABA52B88AE82BE4B9.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Microwave.uasset'
+[2019.08.11-18.43.33:815][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.08.11-18.43.33:843][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.08.11-18.43.33:865][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.43.33:890][259]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_MicrowaveC145F076478D9035EDE704B6B8137DF7.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Microwave.uasset'
+[2019.08.11-18.43.45:873][519]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/Materials/MI_Microwave2.MI_Microwave2
+[2019.08.11-18.43.53:713][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.44.13:044][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.44.13:844][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.08.11-18.44.13:850][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.44.13:881][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.44.14:013][474]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel24CB52304C18AE260D440EB6B5BFEA3B.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-18.44.14:043][474]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.187
+[2019.08.11-18.44.14:074][474]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Microwave8CDD5BC3499F88182FC333B79F5B5F28.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Microwave.uasset'
+[2019.08.11-18.44.14:116][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.08.11-18.44.14:122][474]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.08.11-18.44.14:146][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2019.08.11-18.44.14:159][474]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Microwave214F416F54B0439812FBB0CBC5851E535.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Microwave2.uasset'
+[2019.08.11-18.44.15:127][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.44.36:360][964]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Toilet Roll.FBX)
+[2019.08.11-18.44.36:369][964]LogFbx: Loading FBX Scene from ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Models/Toilet Roll.FBX
+[2019.08.11-18.44.36:389][964]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.11-18.44.36:390][964]FBXImport: Warning: FBX File Loading: Found node with no name, new node name is 'ncl1_1' 
+[2019.08.11-18.44.39:246][964]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.11-18.44.39:270][964]LogFbx: Display: Triangulating static mesh ncl1_1
+[2019.08.11-18.44.39:322][964]LogStaticMesh: Building static mesh Toilet_Roll...
+[2019.08.11-18.44.39:327][964]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Models/Toilet_Roll.Toilet_Roll
+[2019.08.11-18.44.42:382][293]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-18.44.42:386][293]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-18.44.44:540][503]LogActorFactory: Actor Factory created Toilet_Roll
+[2019.08.11-18.44.44:950][542]LogActorFactory: Actor Factory created Toilet_Roll
+[2019.08.11-18.44.46:259][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.44.53:475][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wine)
+[2019.08.11-18.44.54:482][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.44.57:383][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Microwave)
+[2019.08.11-18.44.58:152][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.45.06:634][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.45.08:181][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toilet_Roll)
+[2019.08.11-18.45.10:065][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.46.29:892][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.46.55:046][582]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Assets/Materials/MI_Toilet_Roll.MI_Toilet_Roll
+[2019.08.11-18.47.05:699][897]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/Textures/Toilet Roll.png)
+[2019.08.11-18.47.05:750][897]LogTexture: Display: Building textures: Toilet_Roll (AutoDXT, 512X512)
+[2019.08.11-18.47.21:977][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wine)
+[2019.08.11-18.47.23:170][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.47.28:353][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toilet_Roll)
+[2019.08.11-18.47.45:295][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-18.48.05:757][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.48.07:216][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.08.11-18.48.07:232][818]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.08.11-18.48.07:255][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-18.48.08:092][903]LogSlate: Window 'MI_Microwave2' being destroyed
+[2019.08.11-18.48.25:420][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.48.25:666][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.48.26:085][971]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.48.26:887][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.08.11-18.48.26:895][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.48.26:927][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.11-18.48.27:067][ 62]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel04270AB84722538F2C8E938AA4B222B5.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-18.48.27:097][ 62]LogFileHelpers: Saving map 'Neesarg_TestLevel' took 0.197
+[2019.08.11-18.48.27:127][ 62]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Toilet_RollA3B061EC45C28D69B7FF0ABE2F7E5D9E.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Models/Toilet_Roll.uasset'
+[2019.08.11-18.48.27:158][ 62]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/MI_Toilet_Roll40D3FB7949D9268377CA87AFAC05AB22.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/MI_Toilet_Roll.uasset'
+[2019.08.11-18.48.27:194][ 62]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Toilet_RollB81D774A4D633A34E0A4C585430AC3E0.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Assets/Materials/Toilet_Roll.uasset'
+[2019.08.11-18.49.06:067][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.49.06:851][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.08.11-18.49.31:870][220]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.49.33:346][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.08.11-18.49.39:526][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.49.41:182][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.49.41:212][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.08.11-18.49.41:335][998]LogSavePackage: Moving '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Saved/Neesarg_TestLevel2E0A85704C0A622D86EC6D98CA392731.tmp' to '../../../../../../Users/Georgia/Documents/Uni/UE4 Game Jam/UE4-Summer-Jam-2019/RopeWalk/Content/Levels/Neesarg_TestLevel.umap'
+[2019.08.11-18.49.42:466][126]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-18.49.43:507][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.08.11-18.49.46:686][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
