@@ -1,0 +1,1145 @@
+﻿Log file open, 08/12/19 21:44:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RopeWalk
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.449440
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  /Game/Levels/GameMenuLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.13-04.44.53:161][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.13-04.44.53:162][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.13-04.44.53:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:162][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:170][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.13-04.44.53:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.13-04.44.53:171][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.13-04.44.53:172][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.13-04.44.53:172][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.13-04.44.53:177][  0]LogHAL: Display: Platform has ~ 32 GB [34073808896 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.13-04.44.53:177][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.13-04.44.53:177][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.13-04.44.53:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.13-04.44.53:178][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.13-04.44.53:179][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.13-04.44.53:180][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.13-04.44.53:180][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.13-04.44.53:180][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-04.44.53:180][  0]LogInit: Computer: NEESARG-XPS
+[2019.08.13-04.44.53:180][  0]LogInit: User: NeesargBanglawala
+[2019.08.13-04.44.53:180][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.08.13-04.44.53:181][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.13-04.44.53:181][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2019.08.13-04.44.53:181][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.13-04.44.53:181][  0]LogMemory: Process Physical Memory: 98.79 MB used, 98.79 MB peak
+[2019.08.13-04.44.53:181][  0]LogMemory: Process Virtual Memory: 90.12 MB used, 90.12 MB peak
+[2019.08.13-04.44.53:181][  0]LogMemory: Physical Memory: 13718.14 MB used,  18777.17 MB free, 32495.32 MB total
+[2019.08.13-04.44.53:181][  0]LogMemory: Virtual Memory: 4660.39 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.08.13-04.44.53:209][  0]LogInit: Using OS detected language (en-US).
+[2019.08.13-04.44.53:209][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.13-04.44.53:210][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.08.13-04.44.53:573][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.13-04.44.53:573][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.13-04.44.53:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.13-04.44.53:632][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.13-04.44.53:709][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2019.08.13-04.44.53:709][  0]LogD3D11RHI:       3964/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.13-04.44.53:726][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.08.13-04.44.53:726][  0]LogD3D11RHI:       128/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.08.13-04.44.53:728][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.13-04.44.53:728][  0]LogD3D11RHI:       0/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.13-04.44.53:728][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.13-04.44.53:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.13-04.44.53:766][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.13-04.44.53:766][  0]LogWindows: EnumDisplayDevices:
+[2019.08.13-04.44.53:766][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.08.13-04.44.53:766][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2019.08.13-04.44.53:766][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.08.13-04.44.53:767][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.08.13-04.44.53:767][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2019.08.13-04.44.53:767][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.08.13-04.44.53:767][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.08.13-04.44.53:767][  0]LogRHI: Texture pool is 2774 MB (70% of 3964 MB)
+[2019.08.13-04.44.53:816][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.13-04.44.53:819][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-04.44.53:819][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-04.44.53:819][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-04.44.53:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.13-04.44.54:224][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.13-04.44.54:240][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.13-04.44.54:255][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.13-04.44.54:261][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.13-04.44.54:261][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.13-04.44.54:270][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.13-04.44.54:317][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Intermediate/Shaders/WorkingDirectory/22956/).
+[2019.08.13-04.44.54:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Neesarg Banglawala/AppData/Local/Temp/UnrealShaderWorkingDir/3817516048AB8243D71CD29C311D1665/'.
+[2019.08.13-04.44.54:320][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.13-04.44.54:320][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.13-04.44.54:320][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.13-04.44.54:825][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.13-04.44.54:871][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.13-04.44.54:885][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.13-04.44.54:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.13-04.44.54:885][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.13-04.44.54:897][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.13-04.44.54:897][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.13-04.44.54:897][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.13-04.44.54:918][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.13-04.44.54:919][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.13-04.44.54:920][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.13-04.44.55:027][  0]LogInit: Using OS detected language (en-US).
+[2019.08.13-04.44.55:027][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.13-04.44.55:027][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.08.13-04.44.55:027][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.08.13-04.44.55:028][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.08.13-04.44.55:028][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.08.13-04.44.55:029][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2019.08.13-04.44.55:036][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2019.08.13-04.44.55:252][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000867 seconds
+[2019.08.13-04.44.55:394][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.13-04.44.55:445][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.13-04.44.55:445][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.13-04.44.55:445][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.13-04.44.55:445][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.13-04.44.55:445][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.13-04.44.55:527][  0]LogNetVersion: RopeWalk 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3338615901)
+[2019.08.13-04.44.55:976][  0]LogMoviePlayer: Initializing movie player
+[2019.08.13-04.44.56:079][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.13-04.44.56:091][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.13-04.44.56:169][  0]SourceControl: Source control is disabled
+[2019.08.13-04.44.56:169][  0]SourceControl: Source control is disabled
+[2019.08.13-04.44.56:170][  0]SourceControl: Source control is disabled
+[2019.08.13-04.44.56:202][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.13-04.44.56:311][  0]LogOcInput: OculusInput pre-init called
+[2019.08.13-04.44.56:319][  0]LogUObjectArray: 46459 objects as part of root set at end of initial load.
+[2019.08.13-04.44.56:319][  0]LogUObjectAllocator: 8159704 out of 0 bytes used by permanent object pool.
+[2019.08.13-04.44.56:319][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.13-04.44.56:444][  0]LogEngine: Initializing Engine...
+[2019.08.13-04.44.56:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.13-04.44.56:457][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.13-04.44.56:588][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.13-04.44.56:612][  0]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.13-04.44.56:752][  0]LogInit: FAudioDevice initialized.
+[2019.08.13-04.44.56:764][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.13-04.44.56:768][  0]LogInit: Texture streaming: Enabled
+[2019.08.13-04.44.56:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-04.44.56:890][  0]LogInit: Display: Game Engine Initialized.
+[2019.08.13-04.44.56:938][  0]LogInit: Display: Starting Game.
+[2019.08.13-04.44.56:938][  0]LogNet: Browse: /Game/Levels/GameMenuLevel?Name=Player
+[2019.08.13-04.44.56:939][  0]LogLoad: LoadMap: /Game/Levels/GameMenuLevel?Name=Player
+[2019.08.13-04.44.56:966][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.08.13-04.44.56:991][  0]LogAIModule: Creating AISystem for world GameMenuLevel
+[2019.08.13-04.44.57:193][  0]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-04.44.57:195][  0]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.44.57
+[2019.08.13-04.44.57:195][  0]LogWorld: Bringing up level for play took: 0.000483
+[2019.08.13-04.44.57:195][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.08.13-04.44.57:199][  0]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
+[2019.08.13-04.44.57:199][  0]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-04.44.57:199][  0]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
+[2019.08.13-04.44.57:199][  0]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-04.44.57:201][  0]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2019.08.13-04.44.57:202][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
+[2019.08.13-04.44.57:202][  0]LogLoad: Took 0.263077 seconds to LoadMap(/Game/Levels/GameMenuLevel)
+[2019.08.13-04.44.57:259][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.08.13-04.44.57:259][  0]LogLoad: (Engine Initialization) Total time: 6.47 seconds
+[2019.08.13-04.44.57:259][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.13-04.44.57:279][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.13-04.44.58:376][ 55]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-04.44.58:445][ 56]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-04.44.58:445][ 56]LogNet: Browse: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-04.44.58:445][ 56]LogLoad: LoadMap: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-04.44.58:474][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.08.13-04.44.58:743][ 56]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.13-04.44.58:756][ 56]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-04.44.58:780][ 56]LogWorld: Bringing World /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 0) at 2019.08.12-21.44.58
+[2019.08.13-04.44.58:784][ 56]LogWorld: Bringing up level for play took: 0.028072
+[2019.08.13-04.44.58:785][ 56]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
+[2019.08.13-04.44.58:785][ 56]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-04.44.58:785][ 56]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
+[2019.08.13-04.44.58:785][ 56]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-04.44.58:789][ 56]LogLoad: Took 0.345109 seconds to LoadMap(/Game/Levels/Neesarg_TestLevel)
+[2019.08.13-04.45.03:378][339]LogBlueprintUserMessages: [Ben-2_C_0] BEN JUST FELL DOWN!
+[2019.08.13-04.45.03:394][340]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:410][341]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:426][342]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:442][343]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:459][344]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:475][345]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:491][346]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:507][347]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:523][348]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:539][349]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:556][350]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:572][351]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:588][352]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:604][353]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:619][354]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:635][355]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:652][356]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:668][357]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:685][358]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:701][359]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:717][360]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:732][361]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:748][362]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:764][363]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:781][364]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:797][365]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:813][366]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:829][367]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:845][368]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:862][369]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:878][370]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:894][371]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:910][372]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:926][373]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:943][374]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:959][375]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:975][376]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.03:991][377]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:007][378]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:023][379]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:039][380]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:056][381]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:072][382]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:088][383]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:103][384]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:120][385]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:136][386]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:152][387]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:169][388]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:185][389]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:200][390]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:216][391]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:233][392]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:249][393]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:265][394]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:281][395]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:297][396]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:313][397]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:329][398]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:346][399]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:362][400]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:378][401]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:394][402]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:410][403]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:426][404]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:442][405]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:458][406]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:474][407]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:490][408]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:506][409]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:523][410]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:539][411]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:555][412]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:572][413]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:588][414]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:604][415]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:620][416]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:636][417]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:652][418]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:668][419]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:685][420]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:700][421]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:716][422]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:732][423]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:748][424]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:765][425]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:781][426]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:797][427]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:813][428]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:829][429]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:846][430]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:861][431]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:878][432]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:894][433]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:910][434]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:926][435]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:942][436]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:958][437]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:974][438]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.04:991][439]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:007][440]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:023][441]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:039][442]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:055][443]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:072][444]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:088][445]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:103][446]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:120][447]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:136][448]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:152][449]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:168][450]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:184][451]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:200][452]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:217][453]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:232][454]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:248][455]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:265][456]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:281][457]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:297][458]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:313][459]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:329][460]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:345][461]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:362][462]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:378][463]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:394][464]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:410][465]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:426][466]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:442][467]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:458][468]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:475][469]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:491][470]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:507][471]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:523][472]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:539][473]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:556][474]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:572][475]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:587][476]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:604][477]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:620][478]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:636][479]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:652][480]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:668][481]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:684][482]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:701][483]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:716][484]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:733][485]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:749][486]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:765][487]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:781][488]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:797][489]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:813][490]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:830][491]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:846][492]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:862][493]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:878][494]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:894][495]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:910][496]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:926][497]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:942][498]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:958][499]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:974][500]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.05:991][501]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:006][502]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:023][503]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:039][504]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:056][505]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:072][506]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:087][507]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:103][508]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:119][509]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:136][510]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:152][511]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:168][512]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:184][513]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:201][514]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:216][515]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:232][516]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:249][517]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:265][518]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:281][519]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:297][520]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:314][521]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:329][522]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:346][523]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:361][524]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:377][525]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:394][526]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:410][527]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:427][528]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:442][529]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:459][530]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:475][531]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:491][532]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:507][533]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:523][534]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:539][535]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:555][536]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:571][537]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:588][538]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:604][539]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:620][540]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:636][541]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:652][542]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:668][543]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:684][544]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:700][545]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:717][546]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:733][547]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:749][548]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:765][549]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:781][550]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:797][551]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:814][552]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:830][553]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:846][554]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:862][555]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:878][556]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:894][557]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:910][558]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:926][559]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:942][560]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:958][561]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:974][562]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.06:991][563]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:007][564]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:023][565]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:040][566]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:056][567]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:072][568]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:088][569]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:104][570]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:120][571]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:136][572]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.07:152][573]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:265][642]LogBlueprintUserMessages: [Ben-2_C_0] BEN JUST FELL DOWN!
+[2019.08.13-04.45.08:281][643]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:297][644]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:313][645]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:330][646]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:346][647]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:362][648]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:378][649]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:394][650]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:410][651]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:426][652]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:443][653]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:459][654]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:475][655]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:491][656]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:507][657]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:523][658]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:539][659]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:556][660]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:572][661]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:588][662]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:603][663]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:619][664]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:636][665]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:653][666]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:669][667]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:685][668]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:701][669]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:717][670]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:733][671]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:749][672]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:765][673]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:781][674]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:797][675]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:813][676]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:829][677]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:846][678]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:862][679]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:878][680]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:894][681]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:911][682]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:927][683]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:943][684]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:959][685]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:974][686]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.08:990][687]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:007][688]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:023][689]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:039][690]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:055][691]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:071][692]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:087][693]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:104][694]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:120][695]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:136][696]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:153][697]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:168][698]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:184][699]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:201][700]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:216][701]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:232][702]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:249][703]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:265][704]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:281][705]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:297][706]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:313][707]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:330][708]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:346][709]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:361][710]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:378][711]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:394][712]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:410][713]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:427][714]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:443][715]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:459][716]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:475][717]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:491][718]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:508][719]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:523][720]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:539][721]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:555][722]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:571][723]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:587][724]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:604][725]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:620][726]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:636][727]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:652][728]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:668][729]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:684][730]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:700][731]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:717][732]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:733][733]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:749][734]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:765][735]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:781][736]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:797][737]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:814][738]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:830][739]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:846][740]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:862][741]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:878][742]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:894][743]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:910][744]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:927][745]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:943][746]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:959][747]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:975][748]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.09:991][749]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:008][750]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:024][751]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:039][752]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:056][753]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:072][754]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:088][755]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:104][756]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:120][757]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:137][758]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:153][759]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:169][760]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:185][761]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:200][762]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:216][763]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:233][764]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:249][765]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:265][766]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:282][767]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:298][768]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:314][769]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:330][770]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:346][771]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:362][772]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:378][773]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:394][774]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:410][775]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:427][776]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:443][777]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:459][778]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:475][779]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:491][780]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:507][781]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:524][782]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:540][783]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:556][784]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:572][785]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:588][786]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:604][787]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:620][788]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:636][789]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:652][790]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:668][791]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:685][792]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:701][793]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:717][794]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:733][795]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:749][796]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:766][797]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:781][798]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:797][799]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:814][800]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:830][801]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:846][802]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:862][803]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.10:878][804]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.11:991][873]LogBlueprintUserMessages: [Ben-2_C_0] BEN JUST FELL DOWN!
+[2019.08.13-04.45.12:007][874]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.12:023][875]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.12:039][876]LogBlueprintUserMessages: [Ben-2_C_0] Press ANY key to Respawn!
+[2019.08.13-04.45.12:588][910]LogWindowsDesktop: Alt-F4 pressed!
+[2019.08.13-04.45.12:615][910]LogSlate: Window 'RopeWalk (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.08.13-04.45.12:615][910]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.13-04.45.12:622][910]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.13-04.45.12:622][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-04.45.12:622][910]LogEngine: All Windows Closed
+[2019.08.13-04.45.12:622][910]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.08.13-04.45.13:457][911]LogExit: Preparing to exit.
+[2019.08.13-04.45.13:457][911]LogMoviePlayer: Shutting down movie player
+[2019.08.13-04.45.14:110][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-04.45.14:118][911]LogExit: Game engine shut down
+[2019.08.13-04.45.14:159][911]LogExit: Object subsystem successfully closed.
+[2019.08.13-04.45.14:171][911]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.08.13-04.45.14:173][911]LogD3D11RHI: Shutdown
+[2019.08.13-04.45.14:173][911]LogD3D11RHI: CleanupD3DDevice
+[2019.08.13-04.45.14:173][911]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-04.45.14:173][911]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-04.45.14:174][911]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-04.45.14:174][911]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-04.45.14:174][911]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-04.45.14:174][911]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-04.45.14:224][911]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (398)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module SequenceRecorder (396)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module AutomationWorker (392)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module Voice (390)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module AIModule (388)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module GameplayDebugger (387)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module AITestSuite (385)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module NavigationSystem (383)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module OculusMR (380)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (378)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (376)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module WebMMedia (374)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (372)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (370)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (368)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (366)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (364)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (362)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module CharacterAI (360)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module SessionServices (358)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (356)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module LiveCoding (354)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module LevelSequence (352)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (350)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MovieScene (348)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2019.08.13-04.45.14:237][911]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (338)
+[2019.08.13-04.45.14:239][911]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (330)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module OculusInput (328)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (326)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module EditableMesh (324)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module AudioCapture (318)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (312)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (310)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module LinearTimecode (306)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module ImgMedia (304)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (302)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (300)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (298)
+[2019.08.13-04.45.14:361][911]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module BackChannel (286)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module AppleVision (284)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (282)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module VariantManagerContent (278)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module SignificanceManager (252)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.08.13-04.45.14:362][911]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.08.13-04.45.14:463][911]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (236)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (234)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (232)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (230)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapController (228)
+[2019.08.13-04.45.15:091][911]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MagicLeapAR (226)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module AugmentedReality (225)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module FacialAnimation (220)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module DataValidation (218)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (216)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module TreeMap (215)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module AnimationSharing (212)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module AISupportModule (208)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (202)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module PacketHandler (200)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (198)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (196)
+[2019.08.13-04.45.15:091][911]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module Overlay (192)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module OverlayEditor (191)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module VREditor (188)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module StringTableEditor (186)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (184)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (182)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module FunctionalTesting (180)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (178)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module UMG (174)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module UMGEditor (173)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module Sequencer (172)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module MessageLog (169)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module SlateReflector (164)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module Slate (162)
+[2019.08.13-04.45.15:092][911]LogModuleManager: Shutting down and abandoning module EditorStyle (160)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module UnrealEd (158)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module MRMesh (156)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module Messaging (154)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (152)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (150)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module XAudio2 (148)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module Networking (146)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module Core (144)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module KismetCompiler (142)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module MeshUtilities (140)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (139)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (138)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (137)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (135)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (133)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module MaterialBaking (129)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (124)
+[2019.08.13-04.45.15:093][911]LogModuleManager: Shutting down and abandoning module DerivedDataCache (122)
+[2019.08.13-04.45.15:407][911]LogDerivedDataCache: Shutdown
+[2019.08.13-04.45.15:407][911]LogModuleManager: Shutting down and abandoning module XGEController (120)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (115)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (113)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (111)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (109)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (95)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (93)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (91)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (89)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module InputCore (78)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module Settings (76)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.08.13-04.45.15:408][911]LogHMD: Freeing OpenVRDLLHandle.
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.08.13-04.45.15:408][911]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.08.13-04.45.15:409][911]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.08.13-04.45.15:409][911]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.08.13-04.45.15:444][911]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.08.13-04.45.15:468][911]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.08.13-04.45.15:470][911]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.08.13-04.45.15:472][911]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.08.13-04.45.15:479][911]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.08.13-04.45.15:480][911]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.08.13-04.45.15:490][911]LogExit: Exiting.
+[2019.08.13-04.45.15:496][911]Log file closed, 08/12/19 21:45:15
