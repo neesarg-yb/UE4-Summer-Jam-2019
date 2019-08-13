@@ -1,4 +1,4 @@
-﻿Log file open, 08/12/19 21:54:06
+﻿Log file open, 08/12/19 22:26:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: RopeWalk
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.469704
+LogStats: Stats thread started at 0.489498
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +125,7 @@ LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line:  /Game/Levels/GameMenuLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Command Line:  /Game/Levels/Neesarg_TestLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -156,702 +156,692 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.13-04.54.07:054][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.13-04.54.07:055][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.13-04.54.07:055][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.13-04.54.07:055][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.13-04.54.07:055][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.13-04.54.07:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:055][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:065][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.13-04.54.07:065][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.13-04.54.07:066][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.13-04.54.07:067][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.13-04.54.07:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.13-04.54.07:073][  0]LogHAL: Display: Platform has ~ 32 GB [34073808896 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.08.13-04.54.07:073][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.13-04.54.07:073][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.13-04.54.07:073][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.13-04.54.07:074][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:074][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.08.13-04.54.07:075][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
-[2019.08.13-04.54.07:075][  0]LogInit: Computer: NEESARG-XPS
-[2019.08.13-04.54.07:075][  0]LogInit: User: NeesargBanglawala
-[2019.08.13-04.54.07:075][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.08.13-04.54.07:075][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.08.13-04.54.07:076][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
-[2019.08.13-04.54.07:076][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.13-04.54.07:076][  0]LogMemory: Process Physical Memory: 98.73 MB used, 98.74 MB peak
-[2019.08.13-04.54.07:076][  0]LogMemory: Process Virtual Memory: 89.88 MB used, 89.88 MB peak
-[2019.08.13-04.54.07:076][  0]LogMemory: Physical Memory: 13790.69 MB used,  18704.63 MB free, 32495.32 MB total
-[2019.08.13-04.54.07:076][  0]LogMemory: Virtual Memory: 4660.39 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.08.13-04.54.07:115][  0]LogInit: Using OS detected language (en-US).
-[2019.08.13-04.54.07:115][  0]LogInit: Using OS detected locale (en-US).
-[2019.08.13-04.54.07:116][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.08.13-04.54.07:463][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.13-04.54.07:463][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.13-04.54.07:518][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.13-04.54.07:518][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.13-04.54.07:592][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
-[2019.08.13-04.54.07:592][  0]LogD3D11RHI:       3964/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.08.13-04.54.07:609][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.08.13-04.54.07:609][  0]LogD3D11RHI:       128/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.08.13-04.54.07:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.13-04.54.07:612][  0]LogD3D11RHI:       0/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.13-04.54.07:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.13-04.54.07:648][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.13-04.54.07:648][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.13-04.54.07:648][  0]LogWindows: EnumDisplayDevices:
-[2019.08.13-04.54.07:648][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.08.13-04.54.07:648][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
-[2019.08.13-04.54.07:648][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.08.13-04.54.07:649][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.08.13-04.54.07:649][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
-[2019.08.13-04.54.07:649][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.08.13-04.54.07:649][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.08.13-04.54.07:649][  0]LogRHI: Texture pool is 2774 MB (70% of 3964 MB)
-[2019.08.13-04.54.07:694][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.13-04.54.07:698][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.13-04.54.07:698][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.13-04.54.07:698][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.13-04.54.07:705][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.08.13-04.54.08:059][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.08.13-04.54.08:074][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.08.13-04.54.08:088][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.08.13-04.54.08:096][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.08.13-04.54.08:096][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.13-04.54.08:104][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.08.13-04.54.08:153][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Intermediate/Shaders/WorkingDirectory/22484/).
-[2019.08.13-04.54.08:153][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Neesarg Banglawala/AppData/Local/Temp/UnrealShaderWorkingDir/9C9334A9466B4326681A59909B0B1195/'.
-[2019.08.13-04.54.08:155][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.13-04.54.08:155][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.13-04.54.08:155][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.13-04.54.08:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.13-04.54.08:698][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.13-04.54.08:698][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.08.13-04.54.08:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.13-04.54.08:699][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.13-04.54.08:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.13-04.54.08:699][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.13-04.54.08:710][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.13-04.54.08:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.13-04.54.08:710][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.13-04.54.08:722][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.13-04.54.08:722][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.13-04.54.08:722][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.13-04.54.08:743][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.13-04.54.08:744][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.13-04.54.08:744][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.13-04.54.08:853][  0]LogInit: Using OS detected language (en-US).
-[2019.08.13-04.54.08:853][  0]LogInit: Using OS detected locale (en-US).
-[2019.08.13-04.54.08:853][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2019.08.13-04.54.08:853][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2019.08.13-04.54.08:853][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.08.13-04.54.08:853][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.08.13-04.54.08:854][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2019.08.13-04.54.08:861][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
-[2019.08.13-04.54.09:055][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000489 seconds
-[2019.08.13-04.54.09:188][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.13-04.54.09:307][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.13-04.54.09:307][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.08.13-04.54.09:307][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.13-04.54.09:307][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.08.13-04.54.09:307][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.08.13-04.54.09:316][  0]LogNetVersion: RopeWalk 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3338615901)
-[2019.08.13-04.54.09:738][  0]LogMoviePlayer: Initializing movie player
-[2019.08.13-04.54.09:838][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.13-04.54.09:850][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.13-04.54.09:930][  0]SourceControl: Source control is disabled
-[2019.08.13-04.54.09:930][  0]SourceControl: Source control is disabled
-[2019.08.13-04.54.09:931][  0]SourceControl: Source control is disabled
-[2019.08.13-04.54.09:963][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.13-04.54.10:064][  0]LogOcInput: OculusInput pre-init called
-[2019.08.13-04.54.10:071][  0]LogUObjectArray: 46459 objects as part of root set at end of initial load.
-[2019.08.13-04.54.10:071][  0]LogUObjectAllocator: 8159704 out of 0 bytes used by permanent object pool.
-[2019.08.13-04.54.10:071][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.13-04.54.10:194][  0]LogEngine: Initializing Engine...
-[2019.08.13-04.54.10:195][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.13-04.54.10:208][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.08.13-04.54.10:336][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.13-04.54.10:357][  0]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.13-04.54.10:494][  0]LogInit: FAudioDevice initialized.
-[2019.08.13-04.54.10:506][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.13-04.54.10:510][  0]LogInit: Texture streaming: Enabled
-[2019.08.13-04.54.10:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.13-04.54.10:629][  0]LogInit: Display: Game Engine Initialized.
-[2019.08.13-04.54.10:672][  0]LogInit: Display: Starting Game.
-[2019.08.13-04.54.10:672][  0]LogNet: Browse: /Game/Levels/GameMenuLevel?Name=Player
-[2019.08.13-04.54.10:672][  0]LogLoad: LoadMap: /Game/Levels/GameMenuLevel?Name=Player
-[2019.08.13-04.54.10:699][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
-[2019.08.13-04.54.10:726][  0]LogAIModule: Creating AISystem for world GameMenuLevel
-[2019.08.13-04.54.10:935][  0]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.54.10:936][  0]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.54.10
-[2019.08.13-04.54.10:936][  0]LogWorld: Bringing up level for play took: 0.000450
-[2019.08.13-04.54.10:937][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.08.13-04.54.10:940][  0]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.54.10:940][  0]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
-
-[2019.08.13-04.54.10:940][  0]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.54.10:940][  0]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
-	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
-
-[2019.08.13-04.54.10:941][  0]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2019.08.13-04.54.10:942][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
-[2019.08.13-04.54.10:942][  0]LogLoad: Took 0.269397 seconds to LoadMap(/Game/Levels/GameMenuLevel)
-[2019.08.13-04.54.10:994][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.08.13-04.54.10:994][  0]LogLoad: (Engine Initialization) Total time: 6.37 seconds
-[2019.08.13-04.54.10:994][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.13-04.54.11:014][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.08.13-04.54.19:852][541]Set new viewmode: Wireframe
-[2019.08.13-04.54.22:047][677]Set new viewmode: Wireframe
-[2019.08.13-04.54.28:225][ 60]Set new viewmode: Wireframe
-[2019.08.13-04.54.28:724][ 91]Set new viewmode: Unlit
-[2019.08.13-04.54.29:514][140]Set new viewmode: Lit
-[2019.08.13-04.54.30:902][226]Set new viewmode: Wireframe
-[2019.08.13-04.54.31:418][258]Set new viewmode: Unlit
-[2019.08.13-04.54.31:805][282]Set new viewmode: Lit
-[2019.08.13-04.54.52:213][543]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve Neesarg_TestLevel.umap.
-[2019.08.13-04.54.52:282][544]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Neesarg_TestLevel.umap.
-[2019.08.13-04.54.52:282][544]LogNet: Browse: /Game/Levels/Neesarg_TestLevel
-[2019.08.13-04.54.52:282][544]LogLoad: LoadMap: /Game/Levels/Neesarg_TestLevel
-[2019.08.13-04.54.52:313][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2019.08.13-04.54.52:583][544]LogAIModule: Creating AISystem for world Neesarg_TestLevel
-[2019.08.13-04.54.52:596][544]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.54.52:621][544]LogWorld: Bringing World /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 0) at 2019.08.12-21.54.52
-[2019.08.13-04.54.52:625][544]LogWorld: Bringing up level for play took: 0.028580
-[2019.08.13-04.54.52:626][544]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.13-05.26.26:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.13-05.26.26:667][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:667][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:677][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.13-05.26.26:678][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.13-05.26.26:679][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.13-05.26.26:679][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.13-05.26.26:680][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.13-05.26.26:688][  0]LogHAL: Display: Platform has ~ 32 GB [34073808896 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.13-05.26.26:688][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.13-05.26.26:688][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.13-05.26.26:688][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.13-05.26.26:689][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Scalability.ini]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.13-05.26.26:690][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Saved/Config/Windows/Engine.ini]
+[2019.08.13-05.26.26:690][  0]LogInit: Computer: NEESARG-XPS
+[2019.08.13-05.26.26:691][  0]LogInit: User: NeesargBanglawala
+[2019.08.13-05.26.26:691][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.08.13-05.26.26:691][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.13-05.26.26:691][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2019.08.13-05.26.26:691][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.13-05.26.26:691][  0]LogMemory: Process Physical Memory: 98.87 MB used, 98.87 MB peak
+[2019.08.13-05.26.26:691][  0]LogMemory: Process Virtual Memory: 90.00 MB used, 90.00 MB peak
+[2019.08.13-05.26.26:691][  0]LogMemory: Physical Memory: 14453.62 MB used,  18041.70 MB free, 32495.32 MB total
+[2019.08.13-05.26.26:691][  0]LogMemory: Virtual Memory: 4660.39 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.08.13-05.26.26:741][  0]LogInit: Using OS detected language (en-US).
+[2019.08.13-05.26.26:741][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.13-05.26.26:742][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.08.13-05.26.27:098][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.13-05.26.27:098][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.13-05.26.27:170][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.13-05.26.27:170][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.13-05.26.27:270][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2019.08.13-05.26.27:270][  0]LogD3D11RHI:       3964/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.13-05.26.27:289][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.08.13-05.26.27:289][  0]LogD3D11RHI:       128/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.08.13-05.26.27:292][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.13-05.26.27:292][  0]LogD3D11RHI:       0/0/16247 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.13-05.26.27:292][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.13-05.26.27:336][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.13-05.26.27:336][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.13-05.26.27:336][  0]LogWindows: EnumDisplayDevices:
+[2019.08.13-05.26.27:337][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.08.13-05.26.27:337][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2019.08.13-05.26.27:337][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.08.13-05.26.27:338][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.08.13-05.26.27:338][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2019.08.13-05.26.27:338][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.08.13-05.26.27:338][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.08.13-05.26.27:338][  0]LogRHI: Texture pool is 2774 MB (70% of 3964 MB)
+[2019.08.13-05.26.27:396][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.13-05.26.27:401][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-05.26.27:401][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-05.26.27:401][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.13-05.26.27:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.13-05.26.27:840][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.13-05.26.27:858][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.13-05.26.27:876][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.13-05.26.27:884][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.13-05.26.27:884][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.13-05.26.27:895][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.13-05.26.27:953][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/Intermediate/Shaders/WorkingDirectory/4400/).
+[2019.08.13-05.26.27:953][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Neesarg Banglawala/AppData/Local/Temp/UnrealShaderWorkingDir/D17B9E3D4BC8BBC41BCF89A99D6037BC/'.
+[2019.08.13-05.26.27:956][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.13-05.26.27:956][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.13-05.26.27:956][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.13-05.26.28:552][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Neesarg Banglawala/Developer/UE4 Jam/RopeWalk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.13-05.26.28:598][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.13-05.26.28:611][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.13-05.26.28:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.13-05.26.28:612][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.13-05.26.28:623][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Neesarg Banglawala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.13-05.26.28:623][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.13-05.26.28:623][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.13-05.26.28:645][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.13-05.26.28:646][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.13-05.26.28:647][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.13-05.26.28:766][  0]LogInit: Using OS detected language (en-US).
+[2019.08.13-05.26.28:766][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.13-05.26.28:766][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.08.13-05.26.28:766][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.08.13-05.26.28:767][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.08.13-05.26.28:767][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.08.13-05.26.28:768][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2019.08.13-05.26.28:777][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
+[2019.08.13-05.26.29:031][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000568 seconds
+[2019.08.13-05.26.29:187][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.13-05.26.29:328][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.13-05.26.29:328][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.13-05.26.29:328][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.13-05.26.29:328][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.13-05.26.29:328][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.13-05.26.29:337][  0]LogNetVersion: RopeWalk 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3338615901)
+[2019.08.13-05.26.29:809][  0]LogMoviePlayer: Initializing movie player
+[2019.08.13-05.26.29:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.13-05.26.29:933][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.13-05.26.30:012][  0]SourceControl: Source control is disabled
+[2019.08.13-05.26.30:012][  0]SourceControl: Source control is disabled
+[2019.08.13-05.26.30:013][  0]SourceControl: Source control is disabled
+[2019.08.13-05.26.30:048][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.13-05.26.30:162][  0]LogOcInput: OculusInput pre-init called
+[2019.08.13-05.26.30:170][  0]LogUObjectArray: 46459 objects as part of root set at end of initial load.
+[2019.08.13-05.26.30:170][  0]LogUObjectAllocator: 8159704 out of 0 bytes used by permanent object pool.
+[2019.08.13-05.26.30:170][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.13-05.26.30:294][  0]LogEngine: Initializing Engine...
+[2019.08.13-05.26.30:294][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.13-05.26.30:308][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.13-05.26.30:451][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.13-05.26.30:477][  0]LogInit: XAudio2 using 'DELL U2414H (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.13-05.26.30:635][  0]LogInit: FAudioDevice initialized.
+[2019.08.13-05.26.30:646][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.13-05.26.30:650][  0]LogInit: Texture streaming: Enabled
+[2019.08.13-05.26.30:797][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-05.26.30:797][  0]LogInit: Display: Game Engine Initialized.
+[2019.08.13-05.26.30:851][  0]LogInit: Display: Starting Game.
+[2019.08.13-05.26.30:851][  0]LogNet: Browse: /Game/Levels/Neesarg_TestLevel?Name=Player
+[2019.08.13-05.26.30:852][  0]LogLoad: LoadMap: /Game/Levels/Neesarg_TestLevel?Name=Player
+[2019.08.13-05.26.30:890][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.08.13-05.26.31:288][  0]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.13-05.26.31:303][  0]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.26.31:335][  0]LogWorld: Bringing World /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 0) at 2019.08.12-22.26.31
+[2019.08.13-05.26.31:341][  0]LogWorld: Bringing up level for play took: 0.036366
+[2019.08.13-05.26.31:345][  0]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.54.52:626][544]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.31:345][  0]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.54.52:626][544]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.26.31:345][  0]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.54.52:626][544]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.31:345][  0]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.54.52:632][544]LogLoad: Took 0.349629 seconds to LoadMap(/Game/Levels/Neesarg_TestLevel)
-[2019.08.13-04.54.56:897][805]Set new viewmode: Wireframe
-[2019.08.13-04.54.57:542][845]Set new viewmode: Wireframe
-[2019.08.13-04.54.58:365][896]Set new viewmode: Unlit
-[2019.08.13-04.54.59:930][993]Set new viewmode: Lit
-[2019.08.13-04.55.16:264][998]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve GameMenuLevel.umap.
-[2019.08.13-04.55.16:334][999]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve GameMenuLevel.umap.
-[2019.08.13-04.55.16:334][999]LogNet: Browse: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.16:334][999]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.16:368][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
-[2019.08.13-04.55.16:380][999]LogAIModule: Creating AISystem for world GameMenuLevel
-[2019.08.13-04.55.16:570][999]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.55.16:571][999]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.55.16
-[2019.08.13-04.55.16:571][999]LogWorld: Bringing up level for play took: 0.000385
-[2019.08.13-04.55.16:572][999]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.08.13-04.55.16:572][999]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.26.31:349][  0]LogLoad: Took 0.497784 seconds to LoadMap(/Game/Levels/Neesarg_TestLevel)
+[2019.08.13-05.26.31:407][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.08.13-05.26.31:407][  0]LogLoad: (Engine Initialization) Total time: 7.68 seconds
+[2019.08.13-05.26.31:407][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.13-05.26.31:458][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.13-05.26.31:629][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2019.08.13-05.26.31:673][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2019.08.13-05.26.32:311][ 32]LogPackageName: SearchForPackageOnDisk took   0.109s to resolve GameMenuLevel.umap.
+[2019.08.13-05.26.32:423][ 33]LogPackageName: SearchForPackageOnDisk took   0.109s to resolve GameMenuLevel.umap.
+[2019.08.13-05.26.32:423][ 33]LogNet: Browse: /Game/Levels/GameMenuLevel
+[2019.08.13-05.26.32:423][ 33]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
+[2019.08.13-05.26.32:482][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.08.13-05.26.32:501][ 33]LogAIModule: Creating AISystem for world GameMenuLevel
+[2019.08.13-05.26.32:770][ 33]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.26.32:771][ 33]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-22.26.32
+[2019.08.13-05.26.32:772][ 33]LogWorld: Bringing up level for play took: 0.000428
+[2019.08.13-05.26.32:772][ 33]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.08.13-05.26.32:773][ 33]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.55.16:572][999]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.32:773][ 33]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.16:572][999]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.26.32:773][ 33]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.55.16:572][999]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.32:773][ 33]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.16:573][999]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2019.08.13-04.55.16:573][999]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
-[2019.08.13-04.55.16:573][999]LogLoad: Took 0.238638 seconds to LoadMap(/Game/Levels/GameMenuLevel)
-[2019.08.13-04.55.17:656][ 67]LogNet: Browse: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.17:656][ 67]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.17:686][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2019.08.13-04.55.17:698][ 67]LogAIModule: Creating AISystem for world GameMenuLevel
-[2019.08.13-04.55.17:890][ 67]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.55.17:891][ 67]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.55.17
-[2019.08.13-04.55.17:891][ 67]LogWorld: Bringing up level for play took: 0.000311
-[2019.08.13-04.55.17:891][ 67]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.08.13-04.55.17:891][ 67]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+[2019.08.13-05.26.32:773][ 33]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2019.08.13-05.26.32:773][ 33]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
+[2019.08.13-05.26.32:774][ 33]LogLoad: Took 0.351432 seconds to LoadMap(/Game/Levels/GameMenuLevel)
+[2019.08.13-05.26.34:352][127]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-05.26.34:424][128]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-05.26.34:424][128]LogNet: Browse: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-05.26.34:424][128]LogLoad: LoadMap: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-05.26.34:455][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.08.13-05.26.34:762][128]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.13-05.26.34:775][128]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.26.34:803][128]LogWorld: Bringing World /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 0) at 2019.08.12-22.26.34
+[2019.08.13-05.26.34:808][128]LogWorld: Bringing up level for play took: 0.032329
+[2019.08.13-05.26.34:809][128]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.55.17:891][ 67]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.34:809][128]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.17:891][ 67]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+[2019.08.13-05.26.34:809][128]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.55.17:891][ 67]LogScript: Warning: Script call stack:
+[2019.08.13-05.26.34:809][128]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.17:892][ 67]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2019.08.13-04.55.17:892][ 67]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
-[2019.08.13-04.55.17:892][ 67]LogLoad: Took 0.237201 seconds to LoadMap(/Game/Levels/GameMenuLevel)
-[2019.08.13-04.55.21:459][289]LogNet: Browse: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.21:459][289]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.21:489][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
-[2019.08.13-04.55.21:502][289]LogAIModule: Creating AISystem for world GameMenuLevel
-[2019.08.13-04.55.21:686][289]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.55.21:687][289]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.55.21
-[2019.08.13-04.55.21:687][289]LogWorld: Bringing up level for play took: 0.000306
-[2019.08.13-04.55.21:688][289]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.08.13-04.55.21:688][289]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.26.34:812][128]LogLoad: Took 0.386929 seconds to LoadMap(/Game/Levels/Neesarg_TestLevel)
+[2019.08.13-05.28.35:256][587]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve GameMenuLevel.umap.
+[2019.08.13-05.28.35:326][588]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve GameMenuLevel.umap.
+[2019.08.13-05.28.35:326][588]LogNet: Browse: /Game/Levels/GameMenuLevel
+[2019.08.13-05.28.35:326][588]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
+[2019.08.13-05.28.35:359][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.13-05.28.35:372][588]LogAIModule: Creating AISystem for world GameMenuLevel
+[2019.08.13-05.28.35:571][588]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.28.35:572][588]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-22.28.35
+[2019.08.13-05.28.35:573][588]LogWorld: Bringing up level for play took: 0.000322
+[2019.08.13-05.28.35:573][588]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.08.13-05.28.35:573][588]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.55.21:688][289]LogScript: Warning: Script call stack:
+[2019.08.13-05.28.35:573][588]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.21:688][289]LogScript: Warning: Accessed None trying to read property Ben-2
+[2019.08.13-05.28.35:573][588]LogScript: Warning: Accessed None trying to read property Ben-2
 	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.55.21:688][289]LogScript: Warning: Script call stack:
+[2019.08.13-05.28.35:573][588]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.21:689][289]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2019.08.13-04.55.21:689][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
-[2019.08.13-04.55.21:689][289]LogLoad: Took 0.230454 seconds to LoadMap(/Game/Levels/GameMenuLevel)
-[2019.08.13-04.55.21:739][293]LogNet: Browse: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.21:739][293]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
-[2019.08.13-04.55.21:770][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
-[2019.08.13-04.55.21:781][293]LogAIModule: Creating AISystem for world GameMenuLevel
-[2019.08.13-04.55.21:967][293]LogLoad: Game class is 'BenRopeWalkGameMode_C'
-[2019.08.13-04.55.21:968][293]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-21.55.21
-[2019.08.13-04.55.21:968][293]LogWorld: Bringing up level for play took: 0.000316
-[2019.08.13-04.55.21:969][293]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.08.13-04.55.21:969][293]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+[2019.08.13-05.28.35:574][588]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2019.08.13-05.28.35:574][588]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
+[2019.08.13-05.28.35:574][588]LogLoad: Took 0.248121 seconds to LoadMap(/Game/Levels/GameMenuLevel)
+[2019.08.13-05.28.37:257][689]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-05.28.37:326][690]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Neesarg_TestLevel.umap.
+[2019.08.13-05.28.37:326][690]LogNet: Browse: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-05.28.37:326][690]LogLoad: LoadMap: /Game/Levels/Neesarg_TestLevel
+[2019.08.13-05.28.37:356][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.08.13-05.28.37:641][690]LogAIModule: Creating AISystem for world Neesarg_TestLevel
+[2019.08.13-05.28.37:653][690]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.28.37:676][690]LogWorld: Bringing World /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel up for play (max tick rate 0) at 2019.08.12-22.28.37
+[2019.08.13-05.28.37:680][690]LogWorld: Bringing up level for play took: 0.025977
+[2019.08.13-05.28.37:681][690]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
-[2019.08.13-04.55.21:969][293]LogScript: Warning: Script call stack:
+[2019.08.13-05.28.37:681][690]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.21:969][293]LogScript: Warning: Accessed None trying to read property Ben-2
-	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+[2019.08.13-05.28.37:681][690]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/Neesarg_TestLevel.Neesarg_TestLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
-[2019.08.13-04.55.21:969][293]LogScript: Warning: Script call stack:
+[2019.08.13-05.28.37:681][690]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
 	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
 
-[2019.08.13-04.55.21:970][293]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2019.08.13-04.55.21:970][293]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
-[2019.08.13-04.55.21:970][293]LogLoad: Took 0.231102 seconds to LoadMap(/Game/Levels/GameMenuLevel)
-[2019.08.13-04.55.25:359][504]LogWindowsDesktop: Alt-F4 pressed!
-[2019.08.13-04.55.25:384][504]LogSlate: Window 'RopeWalk (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.08.13-04.55.25:385][504]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.08.13-04.55.25:390][504]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.08.13-04.55.25:390][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.13-04.55.25:390][504]LogEngine: All Windows Closed
-[2019.08.13-04.55.25:390][504]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.08.13-04.55.26:245][505]LogExit: Preparing to exit.
-[2019.08.13-04.55.26:245][505]LogMoviePlayer: Shutting down movie player
-[2019.08.13-04.55.26:898][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.13-04.55.26:907][505]LogExit: Game engine shut down
-[2019.08.13-04.55.26:950][505]LogExit: Object subsystem successfully closed.
-[2019.08.13-04.55.26:968][505]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.08.13-04.55.26:970][505]LogD3D11RHI: Shutdown
-[2019.08.13-04.55.26:970][505]LogD3D11RHI: CleanupD3DDevice
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.08.13-04.55.26:971][505]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.08.13-04.55.27:024][505]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (398)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module SequenceRecorder (396)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module AutomationWorker (392)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module Voice (390)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module AIModule (388)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module GameplayDebugger (387)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module AITestSuite (385)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module NavigationSystem (383)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module OculusMR (380)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (378)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (376)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module WebMMedia (374)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (372)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (370)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (368)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (366)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (364)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (362)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module CharacterAI (360)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module SessionServices (358)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (356)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module LiveCoding (354)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module LevelSequence (352)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (350)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MovieScene (348)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module PortalServices (344)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
-[2019.08.13-04.55.27:036][505]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (338)
-[2019.08.13-04.55.27:039][505]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (330)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module OculusInput (328)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (326)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module EditableMesh (324)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module AudioCapture (318)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (312)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (310)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module LinearTimecode (306)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module ImgMedia (304)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (302)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (300)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (298)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module BackChannel (286)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module AppleVision (284)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (282)
-[2019.08.13-04.55.27:240][505]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module VariantManagerContent (278)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module HotReload (271)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module SourceControl (259)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module SignificanceManager (252)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
-[2019.08.13-04.55.27:241][505]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
-[2019.08.13-04.55.27:343][505]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (236)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (234)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (232)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (230)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapController (228)
-[2019.08.13-04.55.27:882][505]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MagicLeapAR (226)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module AugmentedReality (225)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module FacialAnimation (220)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module DataValidation (218)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (216)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module TreeMap (215)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module AnimationSharing (212)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module AISupportModule (208)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module Paper2D (206)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (202)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module PacketHandler (200)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (198)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (196)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module Overlay (192)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module OverlayEditor (191)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module VREditor (188)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module StringTableEditor (186)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (184)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (182)
-[2019.08.13-04.55.27:882][505]LogModuleManager: Shutting down and abandoning module FunctionalTesting (180)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (178)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module UMG (174)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module UMGEditor (173)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module Sequencer (172)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module MessageLog (169)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module SlateReflector (164)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module Slate (162)
-[2019.08.13-04.55.27:883][505]LogModuleManager: Shutting down and abandoning module EditorStyle (160)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module UnrealEd (158)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module MRMesh (156)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module Messaging (154)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (152)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (150)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module XAudio2 (148)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module Networking (146)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module Core (144)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module KismetCompiler (142)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module MeshUtilities (140)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (139)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (138)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (137)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (135)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (133)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module MaterialBaking (129)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (124)
-[2019.08.13-04.55.27:885][505]LogModuleManager: Shutting down and abandoning module DerivedDataCache (122)
-[2019.08.13-04.55.28:307][505]LogDerivedDataCache: Shutdown
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module XGEController (120)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (115)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (113)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (111)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (109)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (95)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (93)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (91)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (89)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module InputCore (78)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module Settings (76)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module SteamVR (72)
-[2019.08.13-04.55.28:307][505]LogHMD: Freeing OpenVRDLLHandle.
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
-[2019.08.13-04.55.28:307][505]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
-[2019.08.13-04.55.28:309][505]LogModuleManager: Shutting down and abandoning module XMPP (55)
-[2019.08.13-04.55.28:309][505]LogModuleManager: Shutting down and abandoning module WebSockets (54)
-[2019.08.13-04.55.28:317][505]LogModuleManager: Shutting down and abandoning module HTTP (51)
-[2019.08.13-04.55.28:347][505]LogModuleManager: Shutting down and abandoning module SSL (50)
-[2019.08.13-04.55.28:348][505]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
-[2019.08.13-04.55.28:349][505]LogModuleManager: Shutting down and abandoning module Media (45)
-[2019.08.13-04.55.28:355][505]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
-[2019.08.13-04.55.28:355][505]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.08.13-04.55.28:356][505]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.08.13-04.55.28:357][505]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.08.13-04.55.28:371][505]LogExit: Exiting.
-[2019.08.13-04.55.28:383][505]Log file closed, 08/12/19 21:55:28
+[2019.08.13-05.28.37:684][690]LogLoad: Took 0.357456 seconds to LoadMap(/Game/Levels/Neesarg_TestLevel)
+[2019.08.13-05.28.39:320][782]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve GameMenuLevel.umap.
+[2019.08.13-05.28.39:389][783]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve GameMenuLevel.umap.
+[2019.08.13-05.28.39:389][783]LogNet: Browse: /Game/Levels/GameMenuLevel
+[2019.08.13-05.28.39:389][783]LogLoad: LoadMap: /Game/Levels/GameMenuLevel
+[2019.08.13-05.28.39:423][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.08.13-05.28.39:435][783]LogAIModule: Creating AISystem for world GameMenuLevel
+[2019.08.13-05.28.39:631][783]LogLoad: Game class is 'BenRopeWalkGameMode_C'
+[2019.08.13-05.28.39:632][783]LogWorld: Bringing World /Game/Levels/GameMenuLevel.GameMenuLevel up for play (max tick rate 0) at 2019.08.12-22.28.39
+[2019.08.13-05.28.39:632][783]LogWorld: Bringing up level for play took: 0.000314
+[2019.08.13-05.28.39:632][783]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.08.13-05.28.39:633][783]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:02BB
+[2019.08.13-05.28.39:633][783]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_3FBF30D14401F47A9846A8B7FC4A9265
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-05.28.39:633][783]LogScript: Warning: Accessed None trying to read property Ben-2
+	BenMovementAnimation_C /Game/Levels/GameMenuLevel.GameMenuLevel:PersistentLevel.Ben-2_C_0.Ben_SkeletonMesh.BenMovementAnimation_C_0
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation:0262
+[2019.08.13-05.28.39:633][783]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:EvaluateGraphExposedInputs_ExecuteUbergraph_BenMovementAnimation_AnimGraphNode_TransitionResult_08E9F2DE445BC814B8675C8BF8B347C6
+	Function /Game/Blueprints/BenMovementAnimation.BenMovementAnimation_C:ExecuteUbergraph_BenMovementAnimation
+
+[2019.08.13-05.28.39:633][783]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2019.08.13-05.28.39:633][783]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Ben-2.Ben-2_C:ExecuteUbergraph_Ben-2'!
+[2019.08.13-05.28.39:634][783]LogLoad: Took 0.244470 seconds to LoadMap(/Game/Levels/GameMenuLevel)
+[2019.08.13-05.28.42:587][967]LogWindowsDesktop: Alt-F4 pressed!
+[2019.08.13-05.28.42:612][967]LogSlate: Window 'RopeWalk (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.08.13-05.28.42:613][967]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.13-05.28.42:619][967]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.13-05.28.42:619][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-05.28.42:619][967]LogEngine: All Windows Closed
+[2019.08.13-05.28.42:619][967]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.08.13-05.28.43:372][968]LogExit: Preparing to exit.
+[2019.08.13-05.28.43:372][968]LogMoviePlayer: Shutting down movie player
+[2019.08.13-05.28.44:014][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.13-05.28.44:021][968]LogExit: Game engine shut down
+[2019.08.13-05.28.44:061][968]LogExit: Object subsystem successfully closed.
+[2019.08.13-05.28.44:080][968]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.08.13-05.28.44:082][968]LogD3D11RHI: Shutdown
+[2019.08.13-05.28.44:082][968]LogD3D11RHI: CleanupD3DDevice
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.13-05.28.44:083][968]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.13-05.28.44:148][968]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (398)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module SequenceRecorder (396)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module AutomationWorker (392)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module Voice (390)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module AIModule (388)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module GameplayDebugger (387)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module AITestSuite (385)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module NavigationSystem (383)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module OculusMR (380)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (378)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (376)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module WebMMedia (374)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (372)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (370)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (368)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (366)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (364)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (362)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module CharacterAI (360)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module SessionServices (358)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (356)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module LiveCoding (354)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module LevelSequence (352)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (350)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MovieScene (348)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2019.08.13-05.28.44:162][968]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (338)
+[2019.08.13-05.28.44:165][968]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (330)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module OculusInput (328)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (326)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module EditableMesh (324)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module AudioCapture (318)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (312)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (310)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module LinearTimecode (306)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module ImgMedia (304)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (302)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (300)
+[2019.08.13-05.28.44:200][968]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (298)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module BackChannel (286)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module AppleVision (284)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (282)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module VariantManagerContent (278)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.08.13-05.28.44:201][968]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module SignificanceManager (252)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.08.13-05.28.44:202][968]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.08.13-05.28.44:302][968]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (236)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (234)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (232)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (230)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapController (228)
+[2019.08.13-05.28.44:993][968]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module MagicLeapAR (226)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module AugmentedReality (225)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module FacialAnimation (220)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module DataValidation (218)
+[2019.08.13-05.28.44:993][968]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (216)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module TreeMap (215)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module AnimationSharing (212)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module AISupportModule (208)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (202)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module PacketHandler (200)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (198)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (196)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module Overlay (192)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module OverlayEditor (191)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module VREditor (188)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module StringTableEditor (186)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (184)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (182)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module FunctionalTesting (180)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (178)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module UMG (174)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module UMGEditor (173)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module Sequencer (172)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module MessageLog (169)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module SlateReflector (164)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module Slate (162)
+[2019.08.13-05.28.44:994][968]LogModuleManager: Shutting down and abandoning module EditorStyle (160)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module UnrealEd (158)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module MRMesh (156)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module Messaging (154)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (152)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (150)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module XAudio2 (148)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module Networking (146)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module Core (144)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module KismetCompiler (142)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module MeshUtilities (140)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (139)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (138)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (137)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (135)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (133)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module MaterialBaking (129)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (124)
+[2019.08.13-05.28.44:995][968]LogModuleManager: Shutting down and abandoning module DerivedDataCache (122)
+[2019.08.13-05.28.45:002][968]LogDerivedDataCache: Shutdown
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module XGEController (120)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (115)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (113)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (111)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (109)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (95)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (93)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (91)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (89)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2019.08.13-05.28.45:002][968]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module InputCore (78)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module Settings (76)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.08.13-05.28.45:003][968]LogHMD: Freeing OpenVRDLLHandle.
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.08.13-05.28.45:003][968]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.08.13-05.28.45:030][968]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.08.13-05.28.45:048][968]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.08.13-05.28.45:049][968]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.08.13-05.28.45:050][968]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.08.13-05.28.45:056][968]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.08.13-05.28.45:056][968]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.08.13-05.28.45:057][968]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.08.13-05.28.45:064][968]LogExit: Exiting.
+[2019.08.13-05.28.45:073][968]Log file closed, 08/12/19 22:28:45
